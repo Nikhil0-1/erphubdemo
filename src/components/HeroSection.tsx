@@ -6,19 +6,10 @@ import {
   GraduationCap,
   Sparkles,
   ArrowRight,
-  ShieldCheck,
-  Cpu,
-  Bus,
-  Users,
-  Award,
-  HeartHandshake,
-  Target,
   TrendingUp,
   CheckCircle,
   Menu,
   X,
-  ChevronRight,
-  BrainCircuit,
 } from "lucide-react";
 
 interface HeroSectionProps {
@@ -30,7 +21,7 @@ export default function HeroSection({ loggedIn, homeRoute }: HeroSectionProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="min-h-screen w-full bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-sky-500 selection:text-white relative overflow-x-hidden">
+    <div className="min-h-screen w-full bg-slate-950 text-slate-100 flex flex-col justify-between font-sans selection:bg-sky-500 selection:text-white relative overflow-x-hidden">
       {/* Ambient background lighting */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-gradient-to-b from-sky-500/10 via-indigo-500/5 to-transparent blur-3xl pointer-events-none" />
 
@@ -47,13 +38,6 @@ export default function HeroSection({ loggedIn, homeRoute }: HeroSectionProps) {
               <span className="text-[10px] text-sky-400 font-semibold tracking-wider uppercase mt-0.5">Growth Platform</span>
             </div>
           </Link>
-
-          {/* Desktop Nav Links */}
-          <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
-            <a href="#growth-story" className="hover:text-white transition-colors">Why Smart Edu</a>
-            <a href="#features" className="hover:text-white transition-colors">Core Features</a>
-            <a href="#portals" className="hover:text-white transition-colors">Role Portals</a>
-          </nav>
 
           {/* Header Action Buttons */}
           <div className="hidden md:flex items-center gap-3">
@@ -83,31 +67,26 @@ export default function HeroSection({ loggedIn, homeRoute }: HeroSectionProps) {
 
         {/* Mobile Dropdown Navigation Drawer */}
         {mobileMenuOpen && (
-          <div className="md:hidden border-b border-slate-800 bg-slate-900/95 backdrop-blur-xl px-4 pt-3 pb-6 flex flex-col gap-4 text-sm font-medium text-slate-200">
-            <a href="#growth-story" onClick={() => setMobileMenuOpen(false)} className="hover:text-sky-400 py-1">Why Smart Edu</a>
-            <a href="#features" onClick={() => setMobileMenuOpen(false)} className="hover:text-sky-400 py-1">Core Features</a>
-            <a href="#portals" onClick={() => setMobileMenuOpen(false)} className="hover:text-sky-400 py-1">Role Portals</a>
-            <div className="pt-2 flex flex-col gap-2">
-              <Link
-                href="/login"
-                className="w-full text-center py-2.5 text-slate-200 bg-slate-800 rounded-lg font-semibold"
-              >
-                Sign In
-              </Link>
-              <Link
-                href={loggedIn ? homeRoute : "/teacher"}
-                className="w-full text-center py-2.5 text-white bg-sky-500 rounded-lg font-semibold shadow-md shadow-sky-500/20"
-              >
-                Get Started
-              </Link>
-            </div>
+          <div className="md:hidden border-b border-slate-800 bg-slate-900/95 backdrop-blur-xl px-4 pt-3 pb-6 flex flex-col gap-3 text-sm font-medium text-slate-200">
+            <Link
+              href="/login"
+              className="w-full text-center py-2.5 text-slate-200 bg-slate-800 rounded-lg font-semibold"
+            >
+              Sign In
+            </Link>
+            <Link
+              href={loggedIn ? homeRoute : "/teacher"}
+              className="w-full text-center py-2.5 text-white bg-sky-500 rounded-lg font-semibold shadow-md shadow-sky-500/20"
+            >
+              Get Started
+            </Link>
           </div>
         )}
       </header>
 
-      {/* HERO SECTION */}
-      <section className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:pt-20 pb-16 md:pb-24 w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+      {/* HERO MAIN SECTION */}
+      <section className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:pt-24 pb-16 w-full flex-1 flex items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center w-full">
           
           {/* LEFT COLUMN: Clean Content Hierarchy */}
           <div className="lg:col-span-7 flex flex-col items-center lg:items-start text-center lg:text-left">
@@ -209,106 +188,8 @@ export default function HeroSection({ loggedIn, homeRoute }: HeroSectionProps) {
         </div>
       </section>
 
-      {/* SECTION 2: PRODUCT STORY (WHY SMART EDU?) */}
-      <section id="growth-story" className="w-full border-t border-slate-800/80 bg-slate-950 py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="text-sky-400 text-xs font-bold uppercase tracking-widest">Why Smart Edu?</span>
-          <h2 className="text-2xl sm:text-4xl font-extrabold text-white mt-2 mb-4">
-            More Than Marks. A Complete Student Growth Journey.
-          </h2>
-          <p className="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto mb-12 leading-relaxed">
-            Smart Edu connects academic performance, personalized learning, practice, mistakes, teacher intervention, parent support, skills, activities and recognition into one continuous student journey.
-          </p>
-
-          {/* Simple Visual Connected Flow */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 max-w-5xl mx-auto text-left">
-            {[
-              { step: "01", title: "IDENTIFY", desc: "Multi-signal diagnostic detects weak areas", color: "text-sky-400" },
-              { step: "02", title: "UNDERSTAND", desc: "AI provides root cause step-by-step reasoning", color: "text-purple-400" },
-              { step: "03", title: "PRACTICE", desc: "Adaptive drills & Mistake Book reattempts", color: "text-teal-400" },
-              { step: "04", title: "IMPROVE", desc: "Verified score gains (51% → 68%)", color: "text-emerald-400" },
-              { step: "05", title: "GROW", desc: "Teacher & parent collaborated support", color: "text-amber-400" },
-              { step: "06", title: "RECOGNIZE", desc: "Evidence-based awards & credit points", color: "text-indigo-400" },
-            ].map((flow, i) => (
-              <div key={i} className="p-4 rounded-xl bg-slate-900 border border-slate-800 flex flex-col justify-between">
-                <span className={`text-xs font-black ${flow.color} tracking-wider mb-2`}>{flow.step} · {flow.title}</span>
-                <p className="text-slate-400 text-xs leading-snug">{flow.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* SECTION 3: CORE FEATURES */}
-      <section id="features" className="w-full border-t border-slate-800/80 bg-slate-900/40 py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <span className="text-sky-400 text-xs font-bold uppercase tracking-widest">Platform Capabilities</span>
-            <h2 className="text-2xl sm:text-4xl font-extrabold text-white mt-2">
-              Everything Connected Around Student Growth
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              { icon: BrainCircuit, title: "1. AI Weakness Detection", desc: "Multi-signal model weighting assessment scores, topic accuracy, repeated mistakes, and trends.", color: "text-purple-400", bg: "bg-purple-500/10" },
-              { icon: Target, title: "2. Practice & Mistake Book", desc: "AI step-by-step reasoning explaining errors with active 'Try Again' reattempt loop.", color: "text-sky-400", bg: "bg-sky-500/10" },
-              { icon: HeartHandshake, title: "3. Connected Growth Room", desc: "Dedicated workspace uniting Teacher Mentor, Student, and Parent around live milestones.", color: "text-teal-400", bg: "bg-teal-500/10" },
-              { icon: ShieldCheck, title: "4. Intervention & Audit", desc: "3-chance qualifying miss evaluation & teacher support accountability oversight.", color: "text-amber-400", bg: "bg-amber-500/10" },
-              { icon: Award, title: "5. Credit Points & Awards", desc: "Non-gaming credit ledger rewarding real growth with printable digital certificates.", color: "text-emerald-400", bg: "bg-emerald-500/10" },
-              { icon: Cpu, title: "6. IoT & GPS Operations", desc: "Automated RFID gate attendance & live driver GPS route tracking for parents.", color: "text-indigo-400", bg: "bg-indigo-500/10" },
-            ].map((feat, idx) => {
-              const Icon = feat.icon;
-              return (
-                <div key={idx} className="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-slate-700 transition-colors">
-                  <div className={`w-11 h-11 rounded-xl ${feat.bg} flex items-center justify-center mb-4`}>
-                    <Icon className={`w-6 h-6 ${feat.color}`} />
-                  </div>
-                  <h3 className="text-lg font-bold text-white mb-2">{feat.title}</h3>
-                  <p className="text-slate-400 text-sm leading-relaxed">{feat.desc}</p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* SECTION 4: ROLE PORTALS */}
-      <section id="portals" className="w-full border-t border-slate-800/80 bg-slate-950 py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="text-sky-400 text-xs font-bold uppercase tracking-widest">Role-Based Experiences</span>
-          <h2 className="text-2xl sm:text-4xl font-extrabold text-white mt-2 mb-10">
-            Tailored Dashboards for Every Stakeholder
-          </h2>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-left">
-            {[
-              { role: "Teacher Mentor", user: "Rahul Sharma", desc: "'Who Needs Me Today?' priority student feed & 1-click practice assignment.", href: "/teacher", badge: "TEACHER" },
-              { role: "Student Growth", user: "Aarav Kumar", desc: "Today's plan, Practice Zone, Mistake Book, and verified rank points.", href: "/student", badge: "STUDENT" },
-              { role: "Parent Partner", user: "Raj Kumar", desc: "Positive growth updates, home study guidance, and live bus GPS.", href: "/parent", badge: "PARENT" },
-              { role: "Principal Oversight", user: "Dr. Anjali Sharma", desc: "Institutional support gap alerts, class academic averages, and audit logs.", href: "/principal", badge: "PRINCIPAL" },
-            ].map((p, idx) => (
-              <div key={idx} className="p-5 rounded-xl bg-slate-900 border border-slate-800 flex flex-col justify-between">
-                <div>
-                  <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-sky-500/10 text-sky-400 uppercase tracking-wider">{p.badge}</span>
-                  <h3 className="text-white text-base font-bold mt-2">{p.role}</h3>
-                  <p className="text-slate-400 text-xs mt-1 mb-4 leading-relaxed">{p.desc}</p>
-                </div>
-                <Link
-                  href={p.href}
-                  className="inline-flex items-center justify-between text-xs font-bold text-sky-400 hover:text-sky-300 pt-3 border-t border-slate-800"
-                >
-                  <span>Launch {p.badge} Portal</span>
-                  <ChevronRight size={14} />
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* FOOTER */}
-      <footer className="w-full border-t border-slate-800/80 bg-slate-950 py-8 text-center text-xs text-slate-500">
+      <footer className="w-full border-t border-slate-800/80 bg-slate-950 py-6 text-center text-xs text-slate-500">
         <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
             <GraduationCap size={18} className="text-sky-400" />
@@ -316,11 +197,12 @@ export default function HeroSection({ loggedIn, homeRoute }: HeroSectionProps) {
             <span>· Green Valley International School</span>
           </div>
           <div>
-            © 2026 Smart Edu Hub. All rights reserved. "One Student. One Connected Journey."
+            © 2026 Smart Edu Hub. All rights reserved.
           </div>
         </div>
       </footer>
     </div>
   );
 }
+
 
