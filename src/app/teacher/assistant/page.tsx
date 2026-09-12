@@ -20,7 +20,7 @@ export default function TeacherAssistantPage() {
     {
       role: "assistant",
       content:
-        "Hello Rahul Sir. I am your Smart Edu Teacher Assistant. I analyze only verified class data for Class 7-A (Mathematics). You can ask me how the class is performing, request student support recommendations, or generate developmental observations for your review and approval.",
+        "Hello Rahul Sir. I am your NurtureKernel Teacher Assistant. I analyze only verified class data for Class 7-A (Mathematics). You can ask me how the class is performing, request student support recommendations, or generate developmental observations for your review and approval.",
       source: "Class 7-A Verified Gradebook & Telemetry",
     },
   ]);

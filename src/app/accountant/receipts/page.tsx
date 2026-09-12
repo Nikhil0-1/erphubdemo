@@ -298,7 +298,7 @@ export default function AccountantReceiptsPage() {
                   }}
                 >
                   <CheckCircle2 size={16} />
-                  SMART EDU VERIFIED
+                  NURTUREKERNEL VERIFIED
                 </div>
                 <p style={{ fontSize: "11px", color: "#94a3b8", margin: "6px 0 0" }}>
                   System-generated authentic document · No physical signature required

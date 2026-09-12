@@ -1,5 +1,5 @@
 // src/lib/firestore-service.ts
-// Comprehensive Firebase Firestore & Storage Service for Smart Edu ERP
+// Comprehensive Firebase Firestore & Storage Service for NurtureKernel ERP
 // Conforms to real-time sync, multi-tenant isolation, and RBAC rules
 
 import {

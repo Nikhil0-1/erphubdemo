@@ -161,7 +161,7 @@ Remember: You can only add like terms (3x + 2x = 5x, but 3x + 4y cannot be combi
 Simplify: 4x + 3y + 2x - y
 What is your answer? (Hint: Combine the x terms together, then the y terms).`;
       } else {
-        responseText = `Hello! I am your Smart Edu Study Assistant. You can ask me to:
+        responseText = `Hello! I am your NurtureKernel Study Assistant. You can ask me to:
 • Explain difficult concepts step-by-step
 • Simplify complex textbook paragraphs
 • Provide practice problems with hints
@@ -179,7 +179,7 @@ What is your answer? (Hint: Combine the x terms together, then the y terms).`;
     // DEFAULT / ADMIN CONTEXT
     return NextResponse.json(
       successResponse({
-        reply: "Smart Edu Assistant active. Connected to verified platform telemetry and academic records.",
+        reply: "NurtureKernel Assistant active. Connected to verified platform telemetry and academic records.",
         verifiedDataSource: "Platform Registry",
       })
     );

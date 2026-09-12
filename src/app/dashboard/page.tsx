@@ -29,7 +29,7 @@ export default function DashboardRedirect() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-slate-900 text-white gap-3">
       <Loader2 className="w-8 h-8 text-sky-400 animate-spin" />
-      <p className="text-sm text-slate-400">Loading your Smart Edu workspace...</p>
+      <p className="text-sm text-slate-400">Loading your NurtureKernel workspace...</p>
     </div>
   );
 }

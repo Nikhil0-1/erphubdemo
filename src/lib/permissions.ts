@@ -1,4 +1,4 @@
-// Smart Edu - RBAC Permission System
+// NurtureKernel - RBAC Permission System
 // Implements role-based access control with school-level isolation
 
 import { UserRole, Permission, SessionUser } from "@/types";

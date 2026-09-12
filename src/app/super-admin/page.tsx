@@ -83,7 +83,7 @@ export default function SuperAdminDashboard() {
     <div>
       <PageHeader
         greeting={`${getGreeting()}, ${user?.firstName || "Admin"}`}
-        title="Smart Edu Platform Administration"
+        title="NurtureKernel Platform Administration"
         subtitle="Platform-wide tenant onboarding, school provisioning, and audit logs"
       >
         <button

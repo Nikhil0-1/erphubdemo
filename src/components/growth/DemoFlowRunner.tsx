@@ -150,7 +150,7 @@ export default function DemoFlowRunner() {
             </button>
 
             <div style={{ display: "flex", alignItems: "center", gap: "8px", color: "#0ea5e9", fontWeight: 700, fontSize: "12px", textTransform: "uppercase" }}>
-              <Sparkles size={16} /> Smart Edu Product Vision Demo Flow
+              <Sparkles size={16} /> NurtureKernel Product Vision Demo Flow
             </div>
 
             <h2 style={{ fontSize: "20px", fontWeight: 800, color: "#0f172a", marginTop: "4px" }}>

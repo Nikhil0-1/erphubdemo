@@ -4,11 +4,11 @@ import Providers from "@/components/providers";
 import ThemeProvider from "@/components/ThemeProvider";
 
 export const metadata: Metadata = {
-  title: "Smart Edu — One Platform. Smarter Schools. Better Student Journeys.",
+  title: "NurtureKernel — One Platform. Smarter Schools. Better Student Journeys.",
   description:
-    "Smart Edu is a connected digital operating system for schools and student development. School management, Student 360°, AI Assistant, IoT attendance, smart transport, and digital portfolio — all in one platform.",
+    "NurtureKernel is a connected digital operating system for schools and student development. School management, Student 360°, AI Assistant, IoT attendance, smart transport, and digital portfolio — all in one platform.",
   keywords: [
-    "smart edu",
+    "nurturekernel",
     "school management",
     "student 360",
     "education platform",

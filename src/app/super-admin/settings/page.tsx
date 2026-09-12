@@ -6,7 +6,7 @@ import { PageHeader } from "@/components/dashboard/shared";
 import { testFirebaseLiveConnection, FirebaseDiagnostics } from "@/lib/firestore-service";
 
 export default function PlatformSettingsPage() {
-  const [appName, setAppName] = useState("Smart Edu");
+  const [appName, setAppName] = useState("NurtureKernel");
   const [activeSession, setActiveSession] = useState("2026-27");
   const [aiAssistantEnabled, setAiAssistantEnabled] = useState(true);
   const [iotSyncEnabled, setIotSyncEnabled] = useState(true);

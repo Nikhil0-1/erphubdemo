@@ -1,4 +1,4 @@
-// Smart Edu - Zod Validation Schemas
+// NurtureKernel - Zod Validation Schemas
 import { z } from "zod";
 
 // ============================================================

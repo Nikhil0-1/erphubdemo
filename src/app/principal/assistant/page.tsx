@@ -17,7 +17,7 @@ export default function PrincipalAssistantPage() {
     {
       role: "assistant",
       content:
-        "Hello Dr. Anjali Sharma. I am your Smart Edu Administrative Assistant. I provide insights strictly grounded in verified institutional data across academics, attendance, bus transit, and faculty allocations. How can I assist you today?",
+        "Hello Dr. Anjali Sharma. I am your NurtureKernel Administrative Assistant. I provide insights strictly grounded in verified institutional data across academics, attendance, bus transit, and faculty allocations. How can I assist you today?",
       source: "Verified School Records & Telemetry",
     },
   ]);
@@ -65,7 +65,7 @@ export default function PrincipalAssistantPage() {
   return (
     <div style={{ maxWidth: "900px", margin: "0 auto" }}>
       <PageHeader
-        title="Smart Edu Assistant"
+        title="NurtureKernel Assistant"
         subtitle="Executive administrative intelligence grounded exclusively in verified institutional data"
       >
         <span

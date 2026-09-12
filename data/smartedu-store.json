@@ -398,7 +398,7 @@
       "source": "MANUAL",
       "schoolId": "school-gv-01",
       "id": "att-1789220690894-01ap",
-      "createdAt": "2026-09-12T13:44:50.894Z"
+      "createdAt": "2026-09-12T18:08:29.895Z"
     },
     {
       "studentId": "student-01",
@@ -410,7 +410,7 @@
       "source": "MANUAL",
       "schoolId": "school-gv-01",
       "id": "att-1789145166476-rbtw",
-      "createdAt": "2026-09-12T13:44:50.885Z"
+      "createdAt": "2026-09-12T18:08:29.889Z"
     },
     {
       "id": "att-today",
@@ -856,6 +856,84 @@
     }
   ],
   "auditLogs": [
+    {
+      "userId": "user-teacher-01",
+      "userName": "Rahul Sharma",
+      "role": "TEACHER",
+      "schoolId": "school-gv-01",
+      "action": "MARK_ATTENDANCE_BATCH",
+      "target": "Recorded attendance for 2 students on 2026-09-12",
+      "id": "audit-1789236509899",
+      "timestamp": "2026-09-12T18:08:29.899Z"
+    },
+    {
+      "userId": "user-teacher-01",
+      "userName": "Rahul Sharma",
+      "role": "TEACHER",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "NurtureKernel Web Platform",
+      "id": "audit-1789236401104",
+      "timestamp": "2026-09-12T18:06:41.104Z"
+    },
+    {
+      "userId": "user-admin-01",
+      "userName": "Platform Admin",
+      "role": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "NurtureKernel Web Platform",
+      "id": "audit-1789236373047",
+      "timestamp": "2026-09-12T18:06:13.047Z"
+    },
+    {
+      "userId": "user-student-01",
+      "userName": "Aarav Kumar",
+      "role": "STUDENT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789236080550",
+      "timestamp": "2026-09-12T18:01:20.550Z"
+    },
+    {
+      "userId": "user-parent-01",
+      "userName": "Raj Kumar",
+      "role": "PARENT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789236055357",
+      "timestamp": "2026-09-12T18:00:55.357Z"
+    },
+    {
+      "userId": "user-principal-01",
+      "userName": "Anjali Sharma",
+      "role": "PRINCIPAL",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789236033875",
+      "timestamp": "2026-09-12T18:00:33.875Z"
+    },
+    {
+      "userId": "user-admin-01",
+      "userName": "Platform Admin",
+      "role": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789236013255",
+      "timestamp": "2026-09-12T18:00:13.255Z"
+    },
+    {
+      "userId": "user-parent-01",
+      "userName": "Raj Kumar",
+      "role": "PARENT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789232707020",
+      "timestamp": "2026-09-12T17:05:07.020Z"
+    },
     {
       "userId": "user-teacher-01",
       "userName": "Rahul Sharma",
@@ -2294,7 +2372,7 @@
       "teacherSupportStatus": "SUFFICIENT",
       "reason": "1 qualifying missed learning task(s) recorded",
       "openedAt": "2026-09-12T13:35:45.377Z",
-      "lastUpdated": "2026-09-12T13:45:09.478Z",
+      "lastUpdated": "2026-09-12T18:07:29.864Z",
       "history": [
         {
           "status": "WATCH",
@@ -2317,6 +2395,18 @@
         {
           "status": "NORMAL",
           "updatedAt": "2026-09-12T13:45:09.478Z",
+          "updatedBy": "System Escalation Engine",
+          "note": "Recorded task miss: Status Check. Qualifying misses = 2"
+        },
+        {
+          "status": "NORMAL",
+          "updatedAt": "2026-09-12T18:07:29.798Z",
+          "updatedBy": "System Escalation Engine",
+          "note": "Recorded task miss: Status Check. Qualifying misses = 2"
+        },
+        {
+          "status": "NORMAL",
+          "updatedAt": "2026-09-12T18:07:29.864Z",
           "updatedBy": "System Escalation Engine",
           "note": "Recorded task miss: Status Check. Qualifying misses = 2"
         }
@@ -2452,6 +2542,28 @@
       "isValidException": true,
       "exceptionReason": "Audit",
       "qualifyingMissCount": 0
+    },
+    {
+      "id": "sm-1789236449798",
+      "studentId": "student-01",
+      "taskId": "check",
+      "taskTitle": "Status Check",
+      "dueDate": "2026-09-12",
+      "missedAt": "2026-09-12T18:07:29.798Z",
+      "isValidException": true,
+      "exceptionReason": "Audit",
+      "qualifyingMissCount": 2
+    },
+    {
+      "id": "sm-1789236449864",
+      "studentId": "student-01",
+      "taskId": "check",
+      "taskTitle": "Status Check",
+      "dueDate": "2026-09-12",
+      "missedAt": "2026-09-12T18:07:29.864Z",
+      "isValidException": true,
+      "exceptionReason": "Audit",
+      "qualifyingMissCount": 2
     }
   ],
   "teacherAudits": [],

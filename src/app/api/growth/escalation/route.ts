@@ -52,7 +52,7 @@ export async function POST(req: NextRequest) {
         dataStore.addGrowthMessage(studentId || "student-01", {
           roomId: `gr-${studentId || "student-01"}`,
           senderId: "system",
-          senderName: "Smart Edu Escalation Engine",
+          senderName: "NurtureKernel Escalation Engine",
           senderRole: "SUPER_ADMIN",
           text: "⚠️ Attention Required: 3 required learning tasks remain incomplete. A targeted support plan review is recommended.",
           category: "UPDATE",

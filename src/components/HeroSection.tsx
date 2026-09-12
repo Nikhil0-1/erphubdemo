@@ -179,7 +179,7 @@ export default function HeroSection({ loggedIn, homeRoute }: HeroSectionProps) {
             </div>
             <div className="flex flex-col">
               <span className="font-extrabold text-lg text-slate-900 tracking-tight leading-none">
-                Smart Edu
+                NurtureKernel
               </span>
               <span className="text-[10px] text-indigo-600 font-bold tracking-wider uppercase mt-0.5">
                 School OS & Growth
@@ -205,7 +205,7 @@ export default function HeroSection({ loggedIn, homeRoute }: HeroSectionProps) {
               href="#highlights"
               className="px-3.5 py-1.5 rounded-full hover:text-indigo-600 hover:bg-indigo-50/80 transition-colors"
             >
-              Why Smart Edu
+              Why NurtureKernel
             </a>
           </nav>
 
@@ -258,7 +258,7 @@ export default function HeroSection({ loggedIn, homeRoute }: HeroSectionProps) {
               onClick={() => setMobileMenuOpen(false)}
               className="px-3 py-2 text-sm font-bold text-slate-700 hover:bg-indigo-50 rounded-lg"
             >
-              Why Smart Edu
+              Why NurtureKernel
             </a>
             <hr className="border-slate-100 my-1" />
             <div className="flex gap-2 pt-1">
@@ -311,7 +311,7 @@ export default function HeroSection({ loggedIn, homeRoute }: HeroSectionProps) {
                 href={loggedIn ? homeRoute : "/teacher"}
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-3.5 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl text-base shadow-xl shadow-indigo-600/25 transition-all hover:-translate-y-0.5 active:translate-y-0"
               >
-                <span>Launch Smart Edu</span>
+                <span>Launch NurtureKernel</span>
                 <ArrowRight size={18} />
               </Link>
               <a
@@ -547,7 +547,7 @@ export default function HeroSection({ loggedIn, homeRoute }: HeroSectionProps) {
             Everything Your School Needs to Flourish
           </h2>
           <p className="text-slate-600 text-base font-normal">
-            Eliminate fragmented spreadsheets and disconnected tools. Smart Edu
+            Eliminate fragmented spreadsheets and disconnected tools. NurtureKernel
             brings administrative power, smart hardware, and student learning
             under one roof.
           </p>
@@ -850,7 +850,7 @@ export default function HeroSection({ loggedIn, homeRoute }: HeroSectionProps) {
         </div>
       </section>
 
-      {/* 6. WHY SMART EDU HIGHLIGHT (The Difference) */}
+      {/* 6. WHY NURTUREKERNEL HIGHLIGHT (The Difference) */}
       <section id="highlights" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-24">
         <div className="text-center max-w-2xl mx-auto mb-12">
           <span className="px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200/70 text-indigo-700 text-xs font-bold uppercase tracking-wider">
@@ -861,7 +861,7 @@ export default function HeroSection({ loggedIn, homeRoute }: HeroSectionProps) {
           </h2>
           <p className="text-slate-600 text-sm sm:text-base">
             Traditional school software only records what happened in the past.
-            Smart Edu actively helps educators and parents improve the future.
+            NurtureKernel actively helps educators and parents improve the future.
           </p>
         </div>
 
@@ -892,11 +892,11 @@ export default function HeroSection({ loggedIn, homeRoute }: HeroSectionProps) {
             </ul>
           </div>
 
-          {/* Smart Edu */}
+          {/* NurtureKernel */}
           <div className="bg-gradient-to-br from-indigo-900 to-slate-900 text-white rounded-2xl p-6 sm:p-7 shadow-xl border border-indigo-800">
             <div className="flex items-center gap-2 mb-4 text-emerald-400 font-bold text-sm">
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-400" />
-              <span>Smart Edu Growth Platform</span>
+              <span>NurtureKernel Growth Platform</span>
             </div>
             <ul className="space-y-3.5 text-sm text-slate-200">
               <li className="flex items-start gap-2.5">
@@ -926,7 +926,7 @@ export default function HeroSection({ loggedIn, homeRoute }: HeroSectionProps) {
           <div className="absolute top-0 right-0 w-80 h-80 bg-white/10 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20" />
           <div className="relative z-10 max-w-2xl mx-auto">
             <span className="inline-block px-3.5 py-1 rounded-full bg-white/15 backdrop-blur-md text-white text-xs font-bold uppercase tracking-wider mb-4">
-              Get Started with Smart Edu
+              Get Started with NurtureKernel
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight mb-5 leading-tight">
               Ready to Upgrade Your Entire School Experience?
@@ -940,7 +940,7 @@ export default function HeroSection({ loggedIn, homeRoute }: HeroSectionProps) {
                 href={loggedIn ? homeRoute : "/teacher"}
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-white text-indigo-700 hover:bg-slate-100 font-extrabold rounded-xl shadow-lg transition-all hover:scale-105 active:scale-95 text-base"
               >
-                <span>Enter Smart Edu Platform</span>
+                <span>Enter NurtureKernel Platform</span>
                 <ArrowRight size={18} />
               </Link>
               <Link
@@ -965,7 +965,7 @@ export default function HeroSection({ loggedIn, homeRoute }: HeroSectionProps) {
                   <GraduationCap size={18} />
                 </div>
                 <span className="font-extrabold text-base text-slate-900">
-                  Smart Edu Hub
+                  NurtureKernel Hub
                 </span>
               </div>
               <p className="text-xs text-slate-500 leading-relaxed mb-4">
@@ -1058,7 +1058,7 @@ export default function HeroSection({ loggedIn, homeRoute }: HeroSectionProps) {
           </div>
 
           <div className="border-t border-slate-100 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-400">
-            <p>© 2026 Smart Edu Hub. All rights reserved.</p>
+            <p>© 2026 NurtureKernel Hub. All rights reserved.</p>
             <div className="flex items-center gap-4">
               <span>Privacy Policy</span>
               <span>·</span>

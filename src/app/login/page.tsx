@@ -279,12 +279,12 @@ function LoginForm() {
             >
               <GraduationCap size={28} color="white" />
             </div>
-            <div>
-              <span style={{ fontSize: "28px", fontWeight: 700, color: "white", letterSpacing: "-0.02em" }}>
-                Smart Edu
+            <div style={{ display: "flex", alignItems: "center", flexWrap: "wrap", gap: "8px" }}>
+              <span style={{ fontSize: "28px", fontWeight: 800, color: "white", letterSpacing: "-0.02em" }}>
+                NurtureKernel
               </span>
-              <span style={{ marginLeft: "8px", fontSize: "11px", background: "rgba(14, 165, 233, 0.2)", color: "#38bdf8", padding: "3px 8px", borderRadius: "12px", fontWeight: 600 }}>
-                Firebase Enabled
+              <span style={{ fontSize: "11px", background: "rgba(14, 165, 233, 0.2)", color: "#38bdf8", padding: "3px 8px", borderRadius: "12px", fontWeight: 600 }}>
+                Growth Platform
               </span>
             </div>
           </div>
@@ -367,7 +367,7 @@ function LoginForm() {
           >
             <GraduationCap size={24} color="white" />
           </div>
-          <span style={{ fontSize: "22px", fontWeight: 700, color: "#0f172a" }}>Smart Edu</span>
+          <span style={{ fontSize: "20px", fontWeight: 800, color: "#0f172a", letterSpacing: "-0.02em" }}>NurtureKernel</span>
         </div>
 
         {/* Tab Switcher */}

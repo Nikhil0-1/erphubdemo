@@ -35,7 +35,7 @@ export default function StudentAwardsPage() {
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "20px" }}>
           <div>
             <span style={{ fontSize: "12px", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.5px", opacity: 0.9 }}>
-              Smart Edu Growth Rank
+              NurtureKernel Growth Rank
             </span>
             <h2 style={{ fontSize: "28px", fontWeight: 900, marginTop: "4px" }}>
               {summary.rankTitle} (Level {summary.level})

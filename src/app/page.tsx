@@ -33,7 +33,7 @@ export default function HomePage() {
       <div className="flex flex-col items-center gap-3 text-slate-400">
         <div className="w-9 h-9 border-4 border-indigo-500 border-t-transparent rounded-full animate-spin" />
         <span className="text-xs font-semibold tracking-wider uppercase text-slate-400">
-          Loading Smart Edu...
+          Loading NurtureKernel...
         </span>
       </div>
     </main>

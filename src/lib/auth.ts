@@ -1,4 +1,4 @@
-// Smart Edu - NextAuth Configuration
+// NurtureKernel - NextAuth Configuration
 // Credentials-based authentication with role-based sessions
 // Connected to Application Data Store
 
@@ -59,7 +59,7 @@ export const authOptions: NextAuthOptions = {
           role: user.role,
           schoolId: user.schoolId,
           action: "LOGIN",
-          target: "Smart Edu Web Platform",
+          target: "NurtureKernel Web Platform",
         });
 
         return {

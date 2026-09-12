@@ -31,7 +31,7 @@ export default function PendingFeesPage() {
 
   function handleSendReminder(id: string, studentName: string) {
     setRemindedIds((prev) => [...prev, id]);
-    alert(`Fee payment reminder sent to parent of ${studentName} via Smart Edu portal notification.`);
+    alert(`Fee payment reminder sent to parent of ${studentName} via NurtureKernel portal notification.`);
   }
 
   return (

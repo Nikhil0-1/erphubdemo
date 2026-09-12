@@ -80,7 +80,7 @@ export default function TeacherNotificationsPage() {
     {
       id: "s-4",
       title: "AI Assistant Insight Generated",
-      desc: "Smart Edu Assistant flagged: Class 7-A average marks in Geometry increased by +12%.",
+      desc: "NurtureKernel Assistant flagged: Class 7-A average marks in Geometry increased by +12%.",
       time: "Yesterday",
       type: "INSIGHT",
       icon: CheckCircle,

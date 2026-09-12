@@ -13,7 +13,7 @@ export default function StudentAssistantPage() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      text: "Hey Aarav! 👋 I'm your Smart Edu Study Companion. Need help understanding a tricky concept, preparing for a test, or practicing math problems? Ask me anything!",
+      text: "Hey Aarav! 👋 I'm your NurtureKernel Study Companion. Need help understanding a tricky concept, preparing for a test, or practicing math problems? Ask me anything!",
     },
   ]);
   const [input, setInput] = useState("");

@@ -1,5 +1,5 @@
-// Smart Edu - Central Application Data Store & Repository Layer
-// Conforms to Section 27, 28, 29, 50, 51, 53 of Smart Edu Specification
+// NurtureKernel - Central Application Data Store & Repository Layer
+// Conforms to Section 27, 28, 29, 50, 51, 53 of NurtureKernel Specification
 // Provides multi-school isolation, reactive querying, and persistence.
 
 import fs from "fs";

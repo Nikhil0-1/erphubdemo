@@ -669,10 +669,10 @@ function SidebarContent({
           >
             <GraduationCap size={22} color="white" />
           </div>
-          <div>
-            <div style={{ fontSize: "16px", fontWeight: 700, letterSpacing: "-0.01em" }}>Smart Edu</div>
-            <div style={{ fontSize: "10px", color: "rgba(255,255,255,0.4)", fontWeight: 500, textTransform: "uppercase", letterSpacing: "0.05em" }}>
-              Education Platform
+          <div style={{ minWidth: 0 }}>
+            <div style={{ fontSize: "15px", fontWeight: 800, letterSpacing: "-0.02em", whiteSpace: "nowrap" }}>NurtureKernel</div>
+            <div style={{ fontSize: "10px", color: "rgba(255,255,255,0.45)", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.05em" }}>
+              Growth & School OS
             </div>
           </div>
         </div>

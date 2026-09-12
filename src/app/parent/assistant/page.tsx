@@ -13,7 +13,7 @@ export default function ParentAssistantPage() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      text: "Hello Raj Kumar! I am your Smart Edu Parent Assistant. I have direct, verified access to Aarav's academic marks, gate attendance, bus transit, and teacher observations. How can I help you today?",
+      text: "Hello Raj Kumar! I am your NurtureKernel Parent Assistant. I have direct, verified access to Aarav's academic marks, gate attendance, bus transit, and teacher observations. How can I help you today?",
     },
   ]);
   const [input, setInput] = useState("");
