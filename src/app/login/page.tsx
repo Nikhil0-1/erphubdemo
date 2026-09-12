@@ -901,10 +901,6 @@ function LoginForm() {
             ))}
           </div>
         </div>
-
-        <p style={{ fontSize: "12px", color: "#94a3b8", textAlign: "center", marginTop: "24px" }}>
-          Firebase Project: <span style={{ fontFamily: "monospace", color: "#64748b" }}>erpeduhub0o</span>
-        </p>
       </div>
     </div>
   );
