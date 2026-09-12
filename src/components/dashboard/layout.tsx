@@ -102,7 +102,7 @@ const NAV_CONFIG: Record<
     { label: "Notifications", href: "/teacher/notifications", icon: Bell },
   ],
   PARENT: [
-    { label: "Home", href: "/parent", icon: Home },
+    { label: "Dashboard", href: "/parent", icon: LayoutDashboard },
     { label: "Growth Room", href: "/parent/growth-room", icon: HeartHandshake },
     { label: "My Children", href: "/parent/children", icon: Users },
     { label: "Academics", href: "/parent/academics", icon: BookOpen },
@@ -116,7 +116,7 @@ const NAV_CONFIG: Record<
     { label: "Notifications", href: "/parent/notifications", icon: Bell },
   ],
   STUDENT: [
-    { label: "Home", href: "/student", icon: Home },
+    { label: "Dashboard", href: "/student", icon: LayoutDashboard },
     { label: "Growth Room", href: "/student/growth-room", icon: HeartHandshake },
     { label: "Practice Zone", href: "/student/practice", icon: BookOpen },
     { label: "Mistake Book", href: "/student/mistakes", icon: History },
