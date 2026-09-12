@@ -1,0 +1,2656 @@
+{
+  "schools": [
+    {
+      "id": "school-gv-01",
+      "name": "Green Valley School",
+      "code": "SE-GVS01",
+      "address": "123 Education Lane, Sector 15",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "contact": "+91-11-2345-6789",
+      "email": "info@greenvalleyschool.edu",
+      "website": "https://greenvalleyschool.edu",
+      "board": "CBSE",
+      "academicSession": "2026-27",
+      "primaryColor": "#1e3a5f",
+      "secondaryColor": "#0ea5e9",
+      "status": "ACTIVE",
+      "principalId": "user-principal-01",
+      "principalName": "Dr. Anjali Sharma",
+      "studentCount": 2,
+      "teacherCount": 1,
+      "createdAt": "2026-09-11T16:29:29.707Z",
+      "updatedAt": "2026-09-11T16:29:29.707Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "user-admin-01",
+      "email": "admin@smartedu.com",
+      "passwordHash": "$2b$10$Tkn4KE3AuZKQZd1vwnNNo.ARfWcVGJuLR1foCP6EZGU1DTnARiZ7e",
+      "firstName": "Platform",
+      "lastName": "Admin",
+      "role": "SUPER_ADMIN",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-11T16:29:29.707Z",
+      "updatedAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "user-principal-01",
+      "email": "anjali.sharma@greenvalley.edu",
+      "passwordHash": "$2b$10$Tkn4KE3AuZKQZd1vwnNNo.ARfWcVGJuLR1foCP6EZGU1DTnARiZ7e",
+      "firstName": "Anjali",
+      "lastName": "Sharma",
+      "role": "PRINCIPAL",
+      "status": "ACTIVE",
+      "schoolId": "school-gv-01",
+      "schoolName": "Green Valley School",
+      "createdAt": "2026-09-11T16:29:29.707Z",
+      "updatedAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "user-principal-alias",
+      "email": "principal@greenvalley.edu",
+      "passwordHash": "$2b$10$Tkn4KE3AuZKQZd1vwnNNo.ARfWcVGJuLR1foCP6EZGU1DTnARiZ7e",
+      "firstName": "Anjali",
+      "lastName": "Sharma",
+      "role": "PRINCIPAL",
+      "status": "ACTIVE",
+      "schoolId": "school-gv-01",
+      "schoolName": "Green Valley School",
+      "createdAt": "2026-09-11T16:29:29.707Z",
+      "updatedAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "user-teacher-01",
+      "email": "rahul.sharma@greenvalley.edu",
+      "passwordHash": "$2b$10$Tkn4KE3AuZKQZd1vwnNNo.ARfWcVGJuLR1foCP6EZGU1DTnARiZ7e",
+      "firstName": "Rahul",
+      "lastName": "Sharma",
+      "role": "TEACHER",
+      "status": "ACTIVE",
+      "schoolId": "school-gv-01",
+      "schoolName": "Green Valley School",
+      "teacherId": "teacher-01",
+      "createdAt": "2026-09-11T16:29:29.707Z",
+      "updatedAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "user-teacher-alias",
+      "email": "teacher@greenvalley.edu",
+      "passwordHash": "$2b$10$Tkn4KE3AuZKQZd1vwnNNo.ARfWcVGJuLR1foCP6EZGU1DTnARiZ7e",
+      "firstName": "Rahul",
+      "lastName": "Sharma",
+      "role": "TEACHER",
+      "status": "ACTIVE",
+      "schoolId": "school-gv-01",
+      "schoolName": "Green Valley School",
+      "teacherId": "teacher-01",
+      "createdAt": "2026-09-11T16:29:29.707Z",
+      "updatedAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "user-student-01",
+      "email": "aarav.kumar@student.greenvalley.edu",
+      "passwordHash": "$2b$10$Tkn4KE3AuZKQZd1vwnNNo.ARfWcVGJuLR1foCP6EZGU1DTnARiZ7e",
+      "firstName": "Aarav",
+      "lastName": "Kumar",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "schoolId": "school-gv-01",
+      "schoolName": "Green Valley School",
+      "studentId": "student-01",
+      "createdAt": "2026-09-11T16:29:29.707Z",
+      "updatedAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "user-student-alias",
+      "email": "student@greenvalley.edu",
+      "passwordHash": "$2b$10$Tkn4KE3AuZKQZd1vwnNNo.ARfWcVGJuLR1foCP6EZGU1DTnARiZ7e",
+      "firstName": "Aarav",
+      "lastName": "Kumar",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "schoolId": "school-gv-01",
+      "schoolName": "Green Valley School",
+      "studentId": "student-01",
+      "createdAt": "2026-09-11T16:29:29.707Z",
+      "updatedAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "user-parent-01",
+      "email": "raj.kumar@gmail.com",
+      "passwordHash": "$2b$10$Tkn4KE3AuZKQZd1vwnNNo.ARfWcVGJuLR1foCP6EZGU1DTnARiZ7e",
+      "firstName": "Raj",
+      "lastName": "Kumar",
+      "role": "PARENT",
+      "status": "ACTIVE",
+      "schoolId": "school-gv-01",
+      "schoolName": "Green Valley School",
+      "parentId": "parent-01",
+      "createdAt": "2026-09-11T16:29:29.707Z",
+      "updatedAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "user-parent-alias",
+      "email": "parent@greenvalley.edu",
+      "passwordHash": "$2b$10$Tkn4KE3AuZKQZd1vwnNNo.ARfWcVGJuLR1foCP6EZGU1DTnARiZ7e",
+      "firstName": "Raj",
+      "lastName": "Kumar",
+      "role": "PARENT",
+      "status": "ACTIVE",
+      "schoolId": "school-gv-01",
+      "schoolName": "Green Valley School",
+      "parentId": "parent-01",
+      "createdAt": "2026-09-11T16:29:29.707Z",
+      "updatedAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "user-driver-01",
+      "email": "rajesh.driver@greenvalley.edu",
+      "passwordHash": "$2b$10$Tkn4KE3AuZKQZd1vwnNNo.ARfWcVGJuLR1foCP6EZGU1DTnARiZ7e",
+      "firstName": "Rajesh",
+      "lastName": "Kumar",
+      "role": "DRIVER",
+      "status": "ACTIVE",
+      "schoolId": "school-gv-01",
+      "schoolName": "Green Valley School",
+      "driverId": "driver-01",
+      "createdAt": "2026-09-11T16:29:29.707Z",
+      "updatedAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "user-driver-alias",
+      "email": "driver@greenvalley.edu",
+      "passwordHash": "$2b$10$Tkn4KE3AuZKQZd1vwnNNo.ARfWcVGJuLR1foCP6EZGU1DTnARiZ7e",
+      "firstName": "Rajesh",
+      "lastName": "Kumar",
+      "role": "DRIVER",
+      "status": "ACTIVE",
+      "schoolId": "school-gv-01",
+      "schoolName": "Green Valley School",
+      "driverId": "driver-01",
+      "createdAt": "2026-09-11T16:29:29.707Z",
+      "updatedAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "user-accountant-01",
+      "email": "priya.patel@greenvalley.edu",
+      "passwordHash": "$2b$10$52l.eMmsih3HwU1LRDHwcuyWEjHMzPDpOXf7dGXwwFi30zw0zNL4.",
+      "firstName": "Priya",
+      "lastName": "Patel",
+      "role": "ACCOUNTANT",
+      "status": "ACTIVE",
+      "schoolId": "school-gv-01",
+      "schoolName": "Green Valley School",
+      "accountantId": "accountant-01",
+      "createdAt": "2026-09-11T19:16:02.349Z",
+      "updatedAt": "2026-09-11T19:16:02.349Z"
+    },
+    {
+      "id": "user-accountant-alias",
+      "email": "accountant@greenvalley.edu",
+      "passwordHash": "$2b$10$52l.eMmsih3HwU1LRDHwcuyWEjHMzPDpOXf7dGXwwFi30zw0zNL4.",
+      "firstName": "Priya",
+      "lastName": "Patel",
+      "role": "ACCOUNTANT",
+      "status": "ACTIVE",
+      "schoolId": "school-gv-01",
+      "schoolName": "Green Valley School",
+      "accountantId": "accountant-01",
+      "createdAt": "2026-09-11T19:16:02.349Z",
+      "updatedAt": "2026-09-11T19:16:02.349Z"
+    },
+    {
+      "email": "goluks5521@gmail.com",
+      "passwordHash": "$2b$12$4EmYxUYcl5YSmzAMeMDHUOPzKLz9pJIxHe6j/ErW2/s.8G.QkSrrm",
+      "firstName": "Nikhil",
+      "lastName": "Kumar",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "schoolId": "school-gv-01",
+      "id": "user-1789220347579-dv4r6",
+      "createdAt": "2026-09-12T13:39:07.579Z",
+      "updatedAt": "2026-09-12T13:39:07.579Z",
+      "studentId": "student-1789220347582"
+    }
+  ],
+  "students": [
+    {
+      "id": "student-01",
+      "userId": "user-student-01",
+      "studentId": "GV-2026-007",
+      "admissionNumber": "ADM-2026-042",
+      "firstName": "Aarav",
+      "lastName": "Kumar",
+      "email": "aarav.kumar@student.greenvalley.edu",
+      "dateOfBirth": "2013-05-14",
+      "classId": "class-07",
+      "className": "Class 7",
+      "sectionId": "sec-07a",
+      "sectionName": "A",
+      "rollNumber": "07",
+      "schoolId": "school-gv-01",
+      "parentId": "parent-01",
+      "parentName": "Raj Kumar",
+      "createdAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "userId": "user-1789220347579-dv4r6",
+      "studentId": "GV-2026-639",
+      "admissionNumber": "ADM-7582",
+      "firstName": "Nikhil",
+      "lastName": "Kumar",
+      "email": "goluks5521@gmail.com",
+      "classId": "class-07",
+      "className": "Class 7",
+      "sectionName": "A",
+      "rollNumber": "0",
+      "schoolId": "school-gv-01",
+      "id": "student-1789220347582",
+      "createdAt": "2026-09-12T13:39:07.582Z"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "teacher-01",
+      "userId": "user-teacher-01",
+      "employeeId": "GV-T-101",
+      "firstName": "Rahul",
+      "lastName": "Sharma",
+      "email": "rahul.sharma@greenvalley.edu",
+      "phone": "+91-98765-43210",
+      "qualification": "M.Sc. Mathematics, B.Ed.",
+      "department": "Mathematics",
+      "joiningDate": "2022-07-01",
+      "schoolId": "school-gv-01",
+      "subjects": [
+        "Mathematics",
+        "Science"
+      ],
+      "createdAt": "2026-09-11T16:29:29.707Z"
+    }
+  ],
+  "parents": [
+    {
+      "id": "parent-01",
+      "userId": "user-parent-01",
+      "firstName": "Raj",
+      "lastName": "Kumar",
+      "email": "raj.kumar@gmail.com",
+      "phone": "+91-99887-76655",
+      "relationship": "Father",
+      "address": "Flat 402, Green Heights, New Delhi",
+      "schoolId": "school-gv-01",
+      "childrenIds": [
+        "student-01"
+      ],
+      "createdAt": "2026-09-11T16:29:29.707Z"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "driver-01",
+      "userId": "user-driver-01",
+      "firstName": "Rajesh",
+      "lastName": "Kumar",
+      "email": "rajesh.driver@greenvalley.edu",
+      "phone": "+91-91234-56789",
+      "licenseNo": "DL-1420180012345",
+      "busId": "bus-07",
+      "busNumber": "BUS-07",
+      "routeId": "route-03",
+      "routeName": "Route 3",
+      "schoolId": "school-gv-01",
+      "createdAt": "2026-09-11T16:29:29.707Z"
+    }
+  ],
+  "accountants": [
+    {
+      "id": "accountant-01",
+      "schoolId": "school-gv-01",
+      "userId": "user-accountant-01",
+      "name": "Priya Patel",
+      "email": "priya.patel@greenvalley.edu",
+      "phone": "+91 98765 43219",
+      "employeeId": "GV-ACC-01",
+      "department": "Finance & Accounts",
+      "qualification": "M.Com, Chartered Accountant (Inter)",
+      "status": "ACTIVE",
+      "joiningDate": "2023-04-01"
+    }
+  ],
+  "classes": [
+    {
+      "id": "class-07",
+      "name": "Class 7",
+      "grade": 7,
+      "schoolId": "school-gv-01",
+      "sections": [
+        {
+          "id": "sec-07a",
+          "name": "A",
+          "classId": "class-07"
+        },
+        {
+          "id": "sec-07b",
+          "name": "B",
+          "classId": "class-07"
+        }
+      ]
+    },
+    {
+      "id": "class-04",
+      "name": "Class 4",
+      "grade": 4,
+      "schoolId": "school-gv-01",
+      "sections": [
+        {
+          "id": "sec-04b",
+          "name": "B",
+          "classId": "class-04"
+        }
+      ]
+    }
+  ],
+  "subjects": [
+    {
+      "id": "sub-math",
+      "name": "Mathematics",
+      "code": "MATH-07",
+      "schoolId": "school-gv-01"
+    },
+    {
+      "id": "sub-sci",
+      "name": "Science",
+      "code": "SCI-07",
+      "schoolId": "school-gv-01"
+    },
+    {
+      "id": "sub-eng",
+      "name": "English",
+      "code": "ENG-07",
+      "schoolId": "school-gv-01"
+    }
+  ],
+  "teacherAssignments": [
+    {
+      "id": "assign-01",
+      "teacherId": "teacher-01",
+      "teacherName": "Rahul Sharma",
+      "classId": "class-07",
+      "className": "Class 7",
+      "sectionId": "sec-07a",
+      "sectionName": "A",
+      "subjectId": "sub-math",
+      "subjectName": "Mathematics",
+      "schoolId": "school-gv-01"
+    }
+  ],
+  "attendance": [
+    {
+      "studentId": "student-1789220347582",
+      "studentName": "Nikhil Kumar",
+      "rollNumber": "0",
+      "date": "2026-09-12",
+      "status": "PRESENT",
+      "markedBy": "user-teacher-01",
+      "source": "MANUAL",
+      "schoolId": "school-gv-01",
+      "id": "att-1789220690894-01ap",
+      "createdAt": "2026-09-12T13:44:50.894Z"
+    },
+    {
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "rollNumber": "07",
+      "date": "2026-09-12",
+      "status": "PRESENT",
+      "markedBy": "user-teacher-01",
+      "source": "MANUAL",
+      "schoolId": "school-gv-01",
+      "id": "att-1789145166476-rbtw",
+      "createdAt": "2026-09-12T13:44:50.885Z"
+    },
+    {
+      "id": "att-today",
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "rollNumber": "07",
+      "date": "2026-09-11",
+      "status": "PRESENT",
+      "markedBy": "teacher-01",
+      "source": "MANUAL",
+      "schoolId": "school-gv-01",
+      "createdAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "att-yest",
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "rollNumber": "07",
+      "date": "2026-09-10",
+      "status": "PRESENT",
+      "markedBy": "teacher-01",
+      "source": "IOT",
+      "schoolId": "school-gv-01",
+      "createdAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "att-03",
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "rollNumber": "07",
+      "date": "2026-09-09",
+      "status": "PRESENT",
+      "markedBy": "teacher-01",
+      "source": "MANUAL",
+      "schoolId": "school-gv-01",
+      "createdAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "att-04",
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "rollNumber": "07",
+      "date": "2026-09-08",
+      "status": "LATE",
+      "markedBy": "teacher-01",
+      "source": "MANUAL",
+      "schoolId": "school-gv-01",
+      "createdAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "att-05",
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "rollNumber": "07",
+      "date": "2026-09-07",
+      "status": "PRESENT",
+      "markedBy": "teacher-01",
+      "source": "IOT",
+      "schoolId": "school-gv-01",
+      "createdAt": "2026-09-11T16:29:29.707Z"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "assess-01",
+      "name": "Mathematics Unit Test 1",
+      "type": "UNIT_TEST",
+      "subjectId": "sub-math",
+      "subjectName": "Mathematics",
+      "classId": "class-07",
+      "className": "Class 7-A",
+      "teacherId": "teacher-01",
+      "teacherName": "Rahul Sharma",
+      "date": "2026-09-02",
+      "maxMarks": 100,
+      "schoolId": "school-gv-01",
+      "createdAt": "2026-09-11T16:29:29.707Z",
+      "results": [
+        {
+          "id": "res-01",
+          "assessmentId": "assess-01",
+          "studentId": "student-01",
+          "studentName": "Aarav Kumar",
+          "marks": 78,
+          "maxMarks": 100,
+          "percentage": 78,
+          "grade": "B+",
+          "remarks": "Good improvement in problem solving and algebraic concepts."
+        }
+      ]
+    },
+    {
+      "id": "assess-02",
+      "name": "Fractions & Decimals Class Test",
+      "type": "CLASS_TEST",
+      "subjectId": "sub-math",
+      "subjectName": "Mathematics",
+      "classId": "class-07",
+      "className": "Class 7-A",
+      "teacherId": "teacher-01",
+      "teacherName": "Rahul Sharma",
+      "date": "2026-09-08",
+      "maxMarks": 25,
+      "schoolId": "school-gv-01",
+      "createdAt": "2026-09-11T16:29:29.707Z",
+      "results": [
+        {
+          "id": "res-02",
+          "assessmentId": "assess-02",
+          "studentId": "student-01",
+          "studentName": "Aarav Kumar",
+          "marks": 22,
+          "maxMarks": 25,
+          "percentage": 88,
+          "grade": "A",
+          "remarks": "Excellent accuracy on word problems."
+        }
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "id": "assign-item-01",
+      "title": "Algebraic Expressions & Geometry Practice",
+      "description": "Solve Exercise 4.2 questions 1-10 with detailed step-by-step reasoning.",
+      "subjectId": "sub-math",
+      "subjectName": "Mathematics",
+      "classId": "class-07",
+      "className": "Class 7-A",
+      "dueDate": "2026-09-15",
+      "maxMarks": 20,
+      "schoolId": "school-gv-01",
+      "createdAt": "2026-09-11T16:29:29.707Z",
+      "submissions": [
+        {
+          "id": "subm-01",
+          "assignmentId": "assign-item-01",
+          "studentId": "student-01",
+          "studentName": "Aarav Kumar",
+          "submittedAt": "2026-09-10T14:30:00Z",
+          "status": "SUBMITTED",
+          "marks": 18,
+          "feedback": "Well written solutions with neat geometry diagrams."
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-01",
+      "name": "Autonomous Obstacle Avoidance Rover",
+      "category": "Robotics / IoT / Coding",
+      "objective": "Build an ultrasonic sensor-based robotic rover using Arduino/ESP32.",
+      "date": "2026-09-04",
+      "classId": "class-07",
+      "className": "Class 7-A",
+      "teacherId": "teacher-01",
+      "teacherName": "Rahul Sharma",
+      "skills": [
+        "Robotics",
+        "C++ Coding",
+        "Sensors",
+        "Teamwork"
+      ],
+      "evaluation": "Demonstrated strong grasp of sensor feedback loops and microcontroller wiring.",
+      "reflection": "Learned how real-time obstacle avoidance algorithms prevent collisions.",
+      "participantIds": [
+        "student-01"
+      ],
+      "schoolId": "school-gv-01",
+      "createdAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "act-02",
+      "name": "School Green Campus Energy Audit",
+      "category": "Environment",
+      "objective": "Measure classroom power consumption and propose renewable alternatives.",
+      "date": "2026-08-28",
+      "classId": "class-07",
+      "className": "Class 7-A",
+      "teacherId": "teacher-01",
+      "teacherName": "Rahul Sharma",
+      "skills": [
+        "Data Analysis",
+        "Environmental Science",
+        "Critical Thinking"
+      ],
+      "participantIds": [
+        "student-01"
+      ],
+      "schoolId": "school-gv-01",
+      "createdAt": "2026-09-11T16:29:29.707Z"
+    }
+  ],
+  "development": [
+    {
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "teacherId": "teacher-01",
+      "teacherName": "Rahul Sharma",
+      "area": "Problem Solving",
+      "observation": "Shows solid conceptual grasp in algebra but benefits from structured multi-step breakdown.",
+      "feedback": "Recommend targeted practice on exponent rules followed by peer explanation.",
+      "level": "Developing",
+      "date": "2026-09-12",
+      "schoolId": "school-gv-01",
+      "source": "ASSISTANT_APPROVED",
+      "id": "dev-1789220618744",
+      "createdAt": "2026-09-12T13:43:38.744Z"
+    },
+    {
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "teacherId": "teacher-01",
+      "teacherName": "Rahul Sharma",
+      "area": "Problem Solving",
+      "observation": "Shows solid conceptual grasp in algebra but benefits from structured multi-step breakdown.",
+      "feedback": "Recommend targeted practice on exponent rules followed by peer explanation.",
+      "level": "Developing",
+      "date": "2026-09-12",
+      "schoolId": "school-gv-01",
+      "source": "ASSISTANT_APPROVED",
+      "id": "dev-1789220615466",
+      "createdAt": "2026-09-12T13:43:35.466Z"
+    },
+    {
+      "id": "dev-01",
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "teacherId": "teacher-01",
+      "teacherName": "Rahul Sharma",
+      "area": "Problem Solving",
+      "observation": "Displays analytical mindset when tackling complex multi-step math problems.",
+      "feedback": "Keep practicing modular problem decomposition.",
+      "level": "Developing",
+      "date": "2026-09-05",
+      "schoolId": "school-gv-01",
+      "source": "TEACHER",
+      "createdAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "dev-02",
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "teacherId": "teacher-01",
+      "teacherName": "Rahul Sharma",
+      "area": "Technical Skills",
+      "observation": "Quickly grasped breadboard circuitry and ultrasonic sensor logic in robotics.",
+      "feedback": "Outstanding curiosity in hands-on STEM experiments.",
+      "level": "Strength",
+      "date": "2026-09-06",
+      "schoolId": "school-gv-01",
+      "source": "TEACHER",
+      "createdAt": "2026-09-11T16:29:29.707Z"
+    }
+  ],
+  "concerns": [
+    {
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "teacherId": "teacher-01",
+      "teacherName": "Rahul Sharma",
+      "category": "ACADEMIC",
+      "description": "hgfx",
+      "priority": "MEDIUM",
+      "status": "IN_REVIEW",
+      "date": "2026-09-11",
+      "schoolId": "school-gv-01",
+      "id": "con-1789148615532",
+      "createdAt": "2026-09-11T17:43:35.532Z",
+      "updatedAt": "2026-09-12T13:43:53.845Z"
+    },
+    {
+      "id": "con-01",
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "teacherId": "teacher-01",
+      "teacherName": "Rahul Sharma",
+      "category": "ACADEMIC",
+      "description": "Requires additional practice with negative number exponents in algebra.",
+      "priority": "MEDIUM",
+      "status": "IN_REVIEW",
+      "notes": "Provided extra worksheet; will re-evaluate on Friday.",
+      "date": "2026-09-08",
+      "schoolId": "school-gv-01",
+      "createdAt": "2026-09-11T16:29:29.707Z",
+      "updatedAt": "2026-09-11T16:29:29.707Z"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "port-01",
+      "studentId": "student-01",
+      "type": "PROJECT",
+      "title": "Smart Irrigation Model using Soil Moisture Sensor",
+      "description": "Designed an automated plant watering system utilizing IoT sensor triggers.",
+      "date": "2026-05-10",
+      "grade": "Class 7",
+      "skills": [
+        "IoT",
+        "Hardware",
+        "Automation"
+      ],
+      "schoolId": "school-gv-01"
+    },
+    {
+      "id": "port-02",
+      "studentId": "student-01",
+      "type": "CERTIFICATE",
+      "title": "National Science Olympiad — School Gold Medalist",
+      "description": "Achieved top 5 percentile nationally in General Science & Logic.",
+      "date": "2025-11-20",
+      "grade": "Class 6",
+      "skills": [
+        "Science",
+        "Logic",
+        "Analytical Thinking"
+      ],
+      "schoolId": "school-gv-01"
+    }
+  ],
+  "buses": [
+    {
+      "id": "bus-07",
+      "number": "BUS-07",
+      "capacity": 40,
+      "driverId": "driver-01",
+      "driverName": "Rajesh Kumar",
+      "routeId": "route-03",
+      "routeName": "Route 3",
+      "schoolId": "school-gv-01",
+      "status": "IDLE"
+    }
+  ],
+  "routes": [
+    {
+      "id": "route-03",
+      "name": "Route 3",
+      "schoolId": "school-gv-01",
+      "stops": [
+        {
+          "name": "Green Valley Stop 1",
+          "order": 1,
+          "lat": 28.5355,
+          "lng": 77.241
+        },
+        {
+          "name": "Main Market Stop",
+          "order": 2,
+          "lat": 28.542,
+          "lng": 77.25
+        },
+        {
+          "name": "Metro Station Junction",
+          "order": 3,
+          "lat": 28.551,
+          "lng": 77.258
+        },
+        {
+          "name": "Sector 15 Gate",
+          "order": 4,
+          "lat": 28.56,
+          "lng": 77.265
+        },
+        {
+          "name": "School Campus",
+          "order": 5,
+          "lat": 28.568,
+          "lng": 77.272
+        }
+      ]
+    }
+  ],
+  "trips": [
+    {
+      "id": "trip-1789144837111",
+      "busId": "bus-07",
+      "busNumber": "BUS-07",
+      "routeId": "route-03",
+      "routeName": "Route 3",
+      "driverId": "driver-01",
+      "driverName": "Rajesh Kumar",
+      "status": "COMPLETED",
+      "startedAt": "2026-09-11T16:40:37.114Z",
+      "schoolId": "school-gv-01",
+      "currentLocation": {
+        "latitude": 28.6155606,
+        "longitude": 77.0313529,
+        "accuracy": 114,
+        "timestamp": "2026-09-11T17:03:49.964Z"
+      },
+      "endedAt": "2026-09-11T17:05:37.076Z"
+    },
+    {
+      "id": "trip-01",
+      "busId": "bus-07",
+      "busNumber": "BUS-07",
+      "routeId": "route-03",
+      "routeName": "Route 3",
+      "driverId": "driver-01",
+      "driverName": "Rajesh Kumar",
+      "status": "NOT_STARTED",
+      "schoolId": "school-gv-01"
+    }
+  ],
+  "iotDevices": [
+    {
+      "id": "iot-01",
+      "deviceId": "GV-RFID-01",
+      "type": "RFID_READER",
+      "name": "Classroom 7-A RFID Reader",
+      "location": "Class 7-A Door",
+      "status": "ONLINE",
+      "schoolId": "school-gv-01",
+      "lastHeartbeat": "2026-09-11T16:29:29.707Z",
+      "eventsCount": 42
+    },
+    {
+      "id": "iot-02",
+      "deviceId": "GV-GATE-01",
+      "type": "RFID_READER",
+      "name": "Main Entrance Gate Reader",
+      "location": "Main Gate",
+      "status": "ONLINE",
+      "schoolId": "school-gv-01",
+      "lastHeartbeat": "2026-09-11T16:29:29.707Z",
+      "eventsCount": 156
+    }
+  ],
+  "iotEvents": [
+    {
+      "id": "event-01",
+      "deviceId": "GV-RFID-01",
+      "eventType": "RFID_SCAN",
+      "payload": {
+        "studentId": "student-01",
+        "studentName": "Aarav Kumar",
+        "cardId": "RFID-CARD-8892",
+        "status": "PRESENT"
+      },
+      "timestamp": "2026-09-11T16:29:29.707Z",
+      "schoolId": "school-gv-01"
+    }
+  ],
+  "auditLogs": [
+    {
+      "userId": "user-teacher-01",
+      "userName": "Rahul Sharma",
+      "role": "TEACHER",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789223704135",
+      "timestamp": "2026-09-12T14:35:04.135Z"
+    },
+    {
+      "userId": "user-parent-01",
+      "userName": "Raj Kumar",
+      "role": "PARENT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789223646621",
+      "timestamp": "2026-09-12T14:34:06.622Z"
+    },
+    {
+      "userId": "user-principal-01",
+      "userName": "Anjali Sharma",
+      "role": "PRINCIPAL",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789223599783",
+      "timestamp": "2026-09-12T14:33:19.783Z"
+    },
+    {
+      "userId": "user-student-01",
+      "userName": "Aarav Kumar",
+      "role": "STUDENT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789221998063",
+      "timestamp": "2026-09-12T14:06:38.063Z"
+    },
+    {
+      "userId": "user-accountant-01",
+      "userName": "Priya Patel",
+      "role": "ACCOUNTANT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789220817265",
+      "timestamp": "2026-09-12T13:46:57.265Z"
+    },
+    {
+      "userId": "user-teacher-01",
+      "userName": "Rahul Sharma",
+      "role": "TEACHER",
+      "schoolId": "school-gv-01",
+      "action": "MARK_ATTENDANCE_BATCH",
+      "target": "Recorded attendance for 2 students on 2026-09-12",
+      "id": "audit-1789220690898",
+      "timestamp": "2026-09-12T13:44:50.898Z"
+    },
+    {
+      "userId": "user-teacher-01",
+      "userName": "Rahul Sharma",
+      "role": "TEACHER",
+      "schoolId": "school-gv-01",
+      "action": "APPROVE_ASSISTANT_INSIGHT",
+      "target": "Approved official development record for Aarav Kumar (Problem Solving)",
+      "id": "audit-1789220618748",
+      "timestamp": "2026-09-12T13:43:38.748Z"
+    },
+    {
+      "userId": "user-teacher-01",
+      "userName": "Rahul Sharma",
+      "role": "TEACHER",
+      "schoolId": "school-gv-01",
+      "action": "APPROVE_ASSISTANT_INSIGHT",
+      "target": "Approved official development record for Aarav Kumar (Problem Solving)",
+      "id": "audit-1789220615472",
+      "timestamp": "2026-09-12T13:43:35.472Z"
+    },
+    {
+      "userId": "user-teacher-01",
+      "userName": "Rahul Sharma",
+      "role": "TEACHER",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789220410343",
+      "timestamp": "2026-09-12T13:40:10.343Z"
+    },
+    {
+      "userId": "user-principal-01",
+      "userName": "Anjali Sharma",
+      "role": "PRINCIPAL",
+      "schoolId": "school-gv-01",
+      "action": "ENROLL_STUDENT",
+      "target": "Student Nikhil Kumar (GV-2026-639) in Class 7-A",
+      "id": "audit-1789220347588",
+      "timestamp": "2026-09-12T13:39:07.588Z"
+    },
+    {
+      "userId": "user-principal-01",
+      "userName": "Anjali Sharma",
+      "role": "PRINCIPAL",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789220286077",
+      "timestamp": "2026-09-12T13:38:06.077Z"
+    },
+    {
+      "userId": "user-principal-01",
+      "userName": "Anjali Sharma",
+      "role": "PRINCIPAL",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789220243782",
+      "timestamp": "2026-09-12T13:37:23.782Z"
+    },
+    {
+      "userId": "user-admin-01",
+      "userName": "Platform Admin",
+      "role": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789220123838",
+      "timestamp": "2026-09-12T13:35:23.838Z"
+    },
+    {
+      "userId": "user-admin-01",
+      "userName": "Platform Admin",
+      "role": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789220092219",
+      "timestamp": "2026-09-12T13:34:52.219Z"
+    },
+    {
+      "userId": "user-driver-01",
+      "userName": "Rajesh Kumar",
+      "role": "DRIVER",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789183655217",
+      "timestamp": "2026-09-12T03:27:35.217Z"
+    },
+    {
+      "userId": "user-student-01",
+      "userName": "Aarav Kumar",
+      "role": "STUDENT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789183648148",
+      "timestamp": "2026-09-12T03:27:28.148Z"
+    },
+    {
+      "userId": "user-principal-01",
+      "userName": "Anjali Sharma",
+      "role": "PRINCIPAL",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789183638753",
+      "timestamp": "2026-09-12T03:27:18.753Z"
+    },
+    {
+      "userId": "user-admin-01",
+      "userName": "Platform Admin",
+      "role": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789183630546",
+      "timestamp": "2026-09-12T03:27:10.546Z"
+    },
+    {
+      "userId": "user-accountant-01",
+      "userName": "Priya Patel",
+      "role": "ACCOUNTANT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789183620136",
+      "timestamp": "2026-09-12T03:27:00.136Z"
+    },
+    {
+      "userId": "user-student-01",
+      "userName": "Aarav Kumar",
+      "role": "STUDENT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789183372337",
+      "timestamp": "2026-09-12T03:22:52.337Z"
+    },
+    {
+      "userId": "user-parent-01",
+      "userName": "Raj Kumar",
+      "role": "PARENT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789183189492",
+      "timestamp": "2026-09-12T03:19:49.493Z"
+    },
+    {
+      "userId": "user-accountant-01",
+      "userName": "Priya Patel",
+      "role": "ACCOUNTANT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789181921374",
+      "timestamp": "2026-09-12T02:58:41.374Z"
+    },
+    {
+      "userId": "user-teacher-01",
+      "userName": "Rahul Sharma",
+      "role": "TEACHER",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789181899869",
+      "timestamp": "2026-09-12T02:58:19.869Z"
+    },
+    {
+      "userId": "user-student-01",
+      "userName": "Aarav Kumar",
+      "role": "STUDENT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789181880675",
+      "timestamp": "2026-09-12T02:58:00.675Z"
+    },
+    {
+      "userId": "user-principal-01",
+      "userName": "Anjali Sharma",
+      "role": "PRINCIPAL",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789181529559",
+      "timestamp": "2026-09-12T02:52:09.559Z"
+    },
+    {
+      "userId": "user-admin-01",
+      "userName": "Platform Admin",
+      "role": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789181337870",
+      "timestamp": "2026-09-12T02:48:57.872Z"
+    },
+    {
+      "userId": "user-teacher-01",
+      "userName": "Rahul Sharma",
+      "role": "TEACHER",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789154814987",
+      "timestamp": "2026-09-11T19:26:54.987Z"
+    },
+    {
+      "userId": "user-principal-01",
+      "userName": "Anjali Sharma",
+      "role": "PRINCIPAL",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789154567367",
+      "timestamp": "2026-09-11T19:22:47.367Z"
+    },
+    {
+      "userId": "user-admin-01",
+      "userName": "Platform Admin",
+      "role": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789154510237",
+      "timestamp": "2026-09-11T19:21:50.237Z"
+    },
+    {
+      "userId": "user-admin-01",
+      "userName": "Platform Admin",
+      "role": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789154400638",
+      "timestamp": "2026-09-11T19:20:00.639Z"
+    },
+    {
+      "userId": "user-accountant-01",
+      "userName": "Priya Patel",
+      "role": "ACCOUNTANT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789154210157",
+      "timestamp": "2026-09-11T19:16:50.158Z"
+    },
+    {
+      "userId": "user-parent-01",
+      "userName": "Raj Kumar",
+      "role": "PARENT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789148644838",
+      "timestamp": "2026-09-11T17:44:04.838Z"
+    },
+    {
+      "userId": "user-teacher-01",
+      "userName": "Rahul Sharma",
+      "role": "TEACHER",
+      "schoolId": "school-gv-01",
+      "action": "CREATE_CONCERN",
+      "target": "Logged concern for Aarav Kumar (ACADEMIC)",
+      "id": "audit-1789148615543",
+      "timestamp": "2026-09-11T17:43:35.543Z"
+    },
+    {
+      "userId": "user-teacher-01",
+      "userName": "Rahul Sharma",
+      "role": "TEACHER",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789148597313",
+      "timestamp": "2026-09-11T17:43:17.313Z"
+    },
+    {
+      "userId": "user-principal-01",
+      "userName": "Anjali Sharma",
+      "role": "PRINCIPAL",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789148577152",
+      "timestamp": "2026-09-11T17:42:57.152Z"
+    },
+    {
+      "userId": "user-admin-01",
+      "userName": "Platform Admin",
+      "role": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789147869770",
+      "timestamp": "2026-09-11T17:31:09.770Z"
+    },
+    {
+      "userId": "user-parent-01",
+      "userName": "Raj Kumar",
+      "role": "PARENT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789147224211",
+      "timestamp": "2026-09-11T17:20:24.211Z"
+    },
+    {
+      "userId": "user-admin-01",
+      "userName": "Platform Admin",
+      "role": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789147140650",
+      "timestamp": "2026-09-11T17:19:00.650Z"
+    },
+    {
+      "userId": "user-driver-01",
+      "userName": "Rajesh Kumar",
+      "role": "DRIVER",
+      "schoolId": "school-gv-01",
+      "action": "END_BUS_ROUTE",
+      "target": "Ended route for trip trip-1789144837111",
+      "id": "audit-1789146337113",
+      "timestamp": "2026-09-11T17:05:37.114Z"
+    },
+    {
+      "userId": "user-driver-01",
+      "userName": "Rajesh Kumar",
+      "role": "DRIVER",
+      "schoolId": "school-gv-01",
+      "action": "END_BUS_ROUTE",
+      "target": "Ended route for trip trip-1789144837111",
+      "id": "audit-1789146336844",
+      "timestamp": "2026-09-11T17:05:36.867Z"
+    },
+    {
+      "userId": "user-driver-01",
+      "userName": "Rajesh Kumar",
+      "role": "DRIVER",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789146198921",
+      "timestamp": "2026-09-11T17:03:18.921Z"
+    },
+    {
+      "userId": "user-admin-01",
+      "userName": "Platform Admin",
+      "role": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789145948739",
+      "timestamp": "2026-09-11T16:59:08.739Z"
+    },
+    {
+      "userId": "user-admin-01",
+      "userName": "Platform Admin",
+      "role": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789145577461",
+      "timestamp": "2026-09-11T16:52:57.461Z"
+    },
+    {
+      "userId": "user-admin-01",
+      "userName": "Platform Admin",
+      "role": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789145549905",
+      "timestamp": "2026-09-11T16:52:29.905Z"
+    },
+    {
+      "userId": "user-principal-01",
+      "userName": "Anjali Sharma",
+      "role": "PRINCIPAL",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789145346354",
+      "timestamp": "2026-09-11T16:49:06.354Z"
+    },
+    {
+      "userId": "user-teacher-01",
+      "userName": "Rahul Sharma",
+      "role": "TEACHER",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789145237279",
+      "timestamp": "2026-09-11T16:47:17.279Z"
+    },
+    {
+      "userId": "user-student-01",
+      "userName": "Aarav Kumar",
+      "role": "STUDENT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789145175980",
+      "timestamp": "2026-09-11T16:46:15.980Z"
+    },
+    {
+      "userId": "user-teacher-01",
+      "userName": "Rahul Sharma",
+      "role": "TEACHER",
+      "schoolId": "school-gv-01",
+      "action": "MARK_ATTENDANCE_BATCH",
+      "target": "Recorded attendance for 1 students on 2026-09-12",
+      "id": "audit-1789145166479",
+      "timestamp": "2026-09-11T16:46:06.480Z"
+    },
+    {
+      "userId": "user-teacher-01",
+      "userName": "Rahul Sharma",
+      "role": "TEACHER",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789145104263",
+      "timestamp": "2026-09-11T16:45:04.263Z"
+    },
+    {
+      "userId": "user-parent-01",
+      "userName": "Raj Kumar",
+      "role": "PARENT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789145061974",
+      "timestamp": "2026-09-11T16:44:21.974Z"
+    },
+    {
+      "userId": "user-student-01",
+      "userName": "Aarav Kumar",
+      "role": "STUDENT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789144993467",
+      "timestamp": "2026-09-11T16:43:13.467Z"
+    },
+    {
+      "userId": "user-driver-01",
+      "userName": "Rajesh Kumar",
+      "role": "DRIVER",
+      "schoolId": "school-gv-01",
+      "action": "START_BUS_ROUTE",
+      "target": "Started route for BUS-07 (Route 3)",
+      "id": "audit-1789144837163",
+      "timestamp": "2026-09-11T16:40:37.163Z"
+    },
+    {
+      "userId": "user-driver-01",
+      "userName": "Rajesh Kumar",
+      "role": "DRIVER",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789144804184",
+      "timestamp": "2026-09-11T16:40:04.184Z"
+    },
+    {
+      "userId": "user-parent-01",
+      "userName": "Raj Kumar",
+      "role": "PARENT",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789144464548",
+      "timestamp": "2026-09-11T16:34:24.548Z"
+    },
+    {
+      "userId": "user-principal-01",
+      "userName": "Anjali Sharma",
+      "role": "PRINCIPAL",
+      "schoolId": "school-gv-01",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789144427456",
+      "timestamp": "2026-09-11T16:33:47.459Z"
+    },
+    {
+      "userId": "user-admin-01",
+      "userName": "Platform Admin",
+      "role": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "Smart Edu Web Platform",
+      "id": "audit-1789144391225",
+      "timestamp": "2026-09-11T16:33:11.225Z"
+    },
+    {
+      "id": "audit-01",
+      "userId": "user-admin-01",
+      "userName": "Platform Admin",
+      "role": "SUPER_ADMIN",
+      "schoolId": "school-gv-01",
+      "action": "INITIALIZE_PLATFORM",
+      "target": "Green Valley School Setup",
+      "timestamp": "2026-09-11T16:29:29.707Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-01",
+      "userId": "user-teacher-01",
+      "schoolId": "school-gv-01",
+      "title": "Upcoming Unit Test",
+      "message": "Mathematics Unit Test 1 scheduled for Class 7-A.",
+      "category": "ACADEMIC",
+      "read": false,
+      "createdAt": "2026-09-11T16:29:29.707Z"
+    },
+    {
+      "id": "notif-02",
+      "userId": "user-parent-01",
+      "schoolId": "school-gv-01",
+      "title": "Attendance Marked",
+      "message": "Aarav Kumar was marked Present today at 08:15 AM via RFID scan.",
+      "category": "ATTENDANCE",
+      "read": false,
+      "createdAt": "2026-09-11T16:29:29.707Z"
+    }
+  ],
+  "feeStructures": [
+    {
+      "id": "fs-01",
+      "schoolId": "school-gv-01",
+      "name": "Standard Academic Fee 2026-27 (Class 7)",
+      "academicYear": "2026-2027",
+      "classId": "class-7a",
+      "categories": [
+        {
+          "id": "cat-01",
+          "name": "Tuition Fee",
+          "amount": 25000,
+          "frequency": "TERMLY",
+          "isMandatory": true
+        },
+        {
+          "id": "cat-02",
+          "name": "Computer & Lab Fee",
+          "amount": 4500,
+          "frequency": "ANNUAL",
+          "isMandatory": true
+        },
+        {
+          "id": "cat-03",
+          "name": "Library & Learning Resources",
+          "amount": 2000,
+          "frequency": "ANNUAL",
+          "isMandatory": true
+        },
+        {
+          "id": "cat-04",
+          "name": "Sports & Co-Curricular",
+          "amount": 3500,
+          "frequency": "ANNUAL",
+          "isMandatory": true
+        },
+        {
+          "id": "cat-05",
+          "name": "Transport Fee (Optional)",
+          "amount": 10000,
+          "frequency": "TERMLY",
+          "isMandatory": false
+        }
+      ],
+      "totalAnnualAmount": 45000,
+      "dueDate": "2026-09-30",
+      "lateFeePerDay": 50,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-11T19:16:02.349Z",
+      "updatedAt": "2026-09-11T19:16:02.349Z"
+    }
+  ],
+  "feeInvoices": [
+    {
+      "id": "inv-2026-001",
+      "invoiceNumber": "INV-2026-001",
+      "schoolId": "school-gv-01",
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "studentRollNo": "GV-2026-0701",
+      "studentClass": "Class 7-A",
+      "parentName": "Raj Kumar",
+      "parentEmail": "parent@greenvalley.edu",
+      "parentPhone": "+91 98765 43212",
+      "academicYear": "2026-2027",
+      "term": "Term 1 (Apr - Sep 2026)",
+      "categories": [
+        {
+          "categoryId": "cat-01",
+          "name": "Tuition Fee (Term 1)",
+          "amount": 25000
+        },
+        {
+          "categoryId": "cat-02",
+          "name": "Computer & Lab Fee",
+          "amount": 4500
+        },
+        {
+          "categoryId": "cat-03",
+          "name": "Library & Learning Resources",
+          "amount": 2000
+        },
+        {
+          "categoryId": "cat-04",
+          "name": "Sports & Co-Curricular",
+          "amount": 3500
+        }
+      ],
+      "totalAmount": 35000,
+      "paidAmount": 35000,
+      "pendingAmount": 0,
+      "discountAmount": 0,
+      "status": "PAID",
+      "issueDate": "2026-04-05",
+      "dueDate": "2026-05-15",
+      "paidDate": "2026-04-20",
+      "remarks": "Paid in full via Net Banking",
+      "createdAt": "2026-09-11T19:16:02.349Z",
+      "updatedAt": "2026-09-11T19:16:02.349Z"
+    },
+    {
+      "id": "inv-2026-002",
+      "invoiceNumber": "INV-2026-002",
+      "schoolId": "school-gv-01",
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "studentRollNo": "GV-2026-0701",
+      "studentClass": "Class 7-A",
+      "parentName": "Raj Kumar",
+      "parentEmail": "parent@greenvalley.edu",
+      "parentPhone": "+91 98765 43212",
+      "academicYear": "2026-2027",
+      "term": "Term 2 (Oct 2026 - Mar 2027)",
+      "categories": [
+        {
+          "categoryId": "cat-01",
+          "name": "Tuition Fee (Term 2)",
+          "amount": 25000
+        },
+        {
+          "categoryId": "cat-05",
+          "name": "Transport Fee (Term 2)",
+          "amount": 10000
+        }
+      ],
+      "totalAmount": 35000,
+      "paidAmount": 15000,
+      "pendingAmount": 20000,
+      "discountAmount": 0,
+      "status": "PARTIAL",
+      "issueDate": "2026-09-01",
+      "dueDate": "2026-09-30",
+      "paidDate": "2026-09-05",
+      "remarks": "First installment paid. Balance due by Sep 30.",
+      "createdAt": "2026-09-11T19:16:02.349Z",
+      "updatedAt": "2026-09-11T19:16:02.349Z"
+    }
+  ],
+  "feePayments": [
+    {
+      "id": "pay-01",
+      "receiptNumber": "REC-2026-0089",
+      "invoiceId": "inv-2026-001",
+      "schoolId": "school-gv-01",
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "studentRollNo": "GV-2026-0701",
+      "studentClass": "Class 7-A",
+      "amount": 35000,
+      "paymentMode": "ONLINE",
+      "transactionRef": "TXN-UPI-99238411",
+      "paymentDate": "2026-04-20",
+      "recordedBy": "Priya Patel",
+      "accountantId": "accountant-01",
+      "status": "SUCCESS",
+      "remarks": "Term 1 full settlement",
+      "createdAt": "2026-09-11T19:16:02.349Z"
+    },
+    {
+      "id": "pay-02",
+      "receiptNumber": "REC-2026-0142",
+      "invoiceId": "inv-2026-002",
+      "schoolId": "school-gv-01",
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "studentRollNo": "GV-2026-0701",
+      "studentClass": "Class 7-A",
+      "amount": 15000,
+      "paymentMode": "BANK_TRANSFER",
+      "transactionRef": "NEFT-HDFC-0019283",
+      "paymentDate": "2026-09-05",
+      "recordedBy": "Priya Patel",
+      "accountantId": "accountant-01",
+      "status": "SUCCESS",
+      "remarks": "Term 2 partial payment (Tuition advance)",
+      "createdAt": "2026-09-11T19:16:02.349Z"
+    }
+  ],
+  "weakTopics": [
+    {
+      "id": "wt-01",
+      "studentId": "student-01",
+      "subjectId": "subj-math",
+      "subjectName": "Mathematics",
+      "topicName": "Linear Equations in One Variable",
+      "subTopic": "Word problems involving age and speed",
+      "severity": "HIGH",
+      "accuracyRate": 42,
+      "totalQuestionsAttempted": 24,
+      "detectedFrom": "ASSESSMENT",
+      "detectedDate": "2026-09-02",
+      "status": "IN_PROGRESS",
+      "recommendedAction": "Review step-by-step substitution method and attempt 5 practice word problems."
+    },
+    {
+      "id": "wt-02",
+      "studentId": "student-01",
+      "subjectId": "subj-sci",
+      "subjectName": "Science",
+      "topicName": "Photosynthesis & Plant Respiration",
+      "subTopic": "Light-dependent vs Dark reactions",
+      "severity": "MEDIUM",
+      "accuracyRate": 58,
+      "totalQuestionsAttempted": 19,
+      "detectedFrom": "PRACTICE_ZONE",
+      "detectedDate": "2026-09-06",
+      "status": "IN_PROGRESS",
+      "recommendedAction": "Complete the interactive diagram simulation on cellular energy cycles."
+    },
+    {
+      "id": "wt-03",
+      "studentId": "student-01",
+      "subjectId": "subj-eng",
+      "subjectName": "English",
+      "topicName": "Active & Passive Voice",
+      "subTopic": "Tense consistency across complex clauses",
+      "severity": "LOW",
+      "accuracyRate": 71,
+      "totalQuestionsAttempted": 14,
+      "detectedFrom": "ASSIGNMENT",
+      "detectedDate": "2026-09-08",
+      "status": "RESOLVED",
+      "recommendedAction": "Reviewed with Teacher Rahul Sharma in intervention clinic."
+    }
+  ],
+  "learningPaths": [
+    {
+      "id": "lp-01",
+      "studentId": "student-01",
+      "subjectId": "subj-math",
+      "subjectName": "Mathematics",
+      "title": "Mastery Pathway: Linear Algebra & Problem Solving",
+      "description": "Personalized remedial sequence targeting word problem translation and equation solving.",
+      "progressPercentage": 65,
+      "assignedByTeacherId": "teacher-01",
+      "assignedByTeacherName": "Rahul Sharma",
+      "createdAt": "2026-09-11T19:16:02.349Z",
+      "updatedAt": "2026-09-11T19:16:02.349Z",
+      "nodes": [
+        {
+          "id": "node-1",
+          "title": "Concept Clarification: Variable Isolation",
+          "description": "Review fundamental algebraic balance properties with visual scales.",
+          "type": "VIDEO",
+          "estimatedMinutes": 15,
+          "status": "COMPLETED",
+          "order": 1,
+          "completedAt": "2026-09-04"
+        },
+        {
+          "id": "node-2",
+          "title": "Translating Verbal Statements to Equations",
+          "description": "Practice identifying key phrases for addition, subtraction, products, and ratios.",
+          "type": "READING",
+          "estimatedMinutes": 20,
+          "status": "COMPLETED",
+          "order": 2,
+          "completedAt": "2026-09-07"
+        },
+        {
+          "id": "node-3",
+          "title": "Practice Drill: Age & Distance Problems",
+          "description": "10 interactive stepped questions with instant hint support.",
+          "type": "QUIZ",
+          "estimatedMinutes": 25,
+          "status": "IN_PROGRESS",
+          "order": 3
+        },
+        {
+          "id": "node-4",
+          "title": "Teacher 1-on-1 Check-in",
+          "description": "Review practice drill mistakes with Mr. Rahul Sharma.",
+          "type": "TEACHER_INTERVENTION",
+          "estimatedMinutes": 15,
+          "status": "LOCKED",
+          "order": 4
+        },
+        {
+          "id": "node-5",
+          "title": "Unit Mastery Challenge",
+          "description": "Final timed checkpoint to demonstrate 85%+ mastery.",
+          "type": "CHALLENGE",
+          "estimatedMinutes": 30,
+          "status": "LOCKED",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "studyPlans": [
+    {
+      "id": "sp-01",
+      "studentId": "student-01",
+      "dayOfWeek": "Monday",
+      "subjectId": "subj-math",
+      "subjectName": "Mathematics",
+      "topic": "Linear Equations Practice & Homework",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "durationMinutes": 60,
+      "priority": "HIGH",
+      "status": "COMPLETED",
+      "isAiGenerated": true
+    },
+    {
+      "id": "sp-02",
+      "studentId": "student-01",
+      "dayOfWeek": "Tuesday",
+      "subjectId": "subj-sci",
+      "subjectName": "Science",
+      "topic": "Cell Structure & Microscope Diagrams",
+      "startTime": "17:00",
+      "endTime": "17:45",
+      "durationMinutes": 45,
+      "priority": "MEDIUM",
+      "status": "COMPLETED",
+      "isAiGenerated": true
+    },
+    {
+      "id": "sp-03",
+      "studentId": "student-01",
+      "dayOfWeek": "Wednesday",
+      "subjectId": "subj-eng",
+      "subjectName": "English",
+      "topic": "Reading Comprehension & Vocabulary",
+      "startTime": "17:00",
+      "endTime": "17:45",
+      "durationMinutes": 45,
+      "priority": "MEDIUM",
+      "status": "SCHEDULED",
+      "isAiGenerated": false
+    },
+    {
+      "id": "sp-04",
+      "studentId": "student-01",
+      "dayOfWeek": "Thursday",
+      "subjectId": "subj-math",
+      "subjectName": "Mathematics",
+      "topic": "Weak Topic Practice Zone (Word Problems)",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "durationMinutes": 60,
+      "priority": "HIGH",
+      "status": "SCHEDULED",
+      "isAiGenerated": true
+    },
+    {
+      "id": "sp-05",
+      "studentId": "student-01",
+      "dayOfWeek": "Friday",
+      "subjectId": "subj-cs",
+      "subjectName": "Computer Science",
+      "topic": "Python Loops & Conditionals Project",
+      "startTime": "17:00",
+      "endTime": "17:45",
+      "durationMinutes": 45,
+      "priority": "LOW",
+      "status": "SCHEDULED",
+      "isAiGenerated": false
+    }
+  ],
+  "practiceQuestions": [
+    {
+      "id": "pq-01",
+      "subjectId": "subj-math",
+      "subjectName": "Mathematics",
+      "topicName": "Linear Equations",
+      "difficulty": "MEDIUM",
+      "questionText": "If 3x + 5 = 20, what is the value of 2x - 3?",
+      "options": [
+        "5",
+        "7",
+        "10",
+        "12"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Step 1: Solve 3x + 5 = 20 -> 3x = 15 -> x = 5. Step 2: Substitute x into 2x - 3 -> 2(5) - 3 = 10 - 3 = 7.",
+      "hint": "First isolate x by subtracting 5 from both sides, then divide by 3."
+    },
+    {
+      "id": "pq-02",
+      "subjectId": "subj-math",
+      "subjectName": "Mathematics",
+      "topicName": "Linear Equations",
+      "difficulty": "HARD",
+      "questionText": "A father is currently 3 times as old as his son. In 12 years, he will be twice as old as his son. How old is the son now?",
+      "options": [
+        "10 years",
+        "12 years",
+        "14 years",
+        "16 years"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Let son's age = s. Father's age = 3s. In 12 years: 3s + 12 = 2(s + 12). 3s + 12 = 2s + 24 -> s = 12 years.",
+      "hint": "Set s as son's age and write the equation for their ages after 12 years."
+    },
+    {
+      "id": "pq-03",
+      "subjectId": "subj-sci",
+      "subjectName": "Science",
+      "topicName": "Cell Biology",
+      "difficulty": "EASY",
+      "questionText": "Which organelle is commonly referred to as the 'powerhouse of the cell'?",
+      "options": [
+        "Ribosome",
+        "Nucleus",
+        "Mitochondria",
+        "Golgi Apparatus"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Mitochondria generate most of the chemical energy needed to power the cell's biochemical reactions through ATP production.",
+      "hint": "It produces ATP for cellular energy."
+    },
+    {
+      "id": "pq-04",
+      "subjectId": "subj-sci",
+      "subjectName": "Science",
+      "topicName": "Photosynthesis",
+      "difficulty": "MEDIUM",
+      "questionText": "During photosynthesis, what gas is released as a byproduct by green plants?",
+      "options": [
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Oxygen",
+        "Methane"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "In the light reactions of photosynthesis, water molecules are split (photolysis), releasing oxygen gas (O2) into the atmosphere.",
+      "hint": "This gas is essential for human and animal respiration."
+    }
+  ],
+  "practiceAttempts": [
+    {
+      "id": "pa-01",
+      "studentId": "student-01",
+      "questionId": "pq-01",
+      "selectedOptionIndex": 1,
+      "isCorrect": true,
+      "timeSpentSeconds": 45,
+      "attemptedAt": "2026-09-09T17:15:00Z"
+    },
+    {
+      "id": "pa-02",
+      "studentId": "student-01",
+      "questionId": "pq-02",
+      "selectedOptionIndex": 0,
+      "isCorrect": false,
+      "timeSpentSeconds": 92,
+      "attemptedAt": "2026-09-09T17:18:00Z"
+    },
+    {
+      "studentId": "student-01",
+      "questionId": "pq-01",
+      "selectedOptionIndex": 1,
+      "isCorrect": true,
+      "timeSpentSeconds": 45,
+      "id": "pa-1789183468743",
+      "attemptedAt": "2026-09-12T03:24:28.743Z"
+    },
+    {
+      "studentId": "student-01",
+      "questionId": "pq-02",
+      "selectedOptionIndex": 2,
+      "isCorrect": false,
+      "timeSpentSeconds": 45,
+      "id": "pa-1789183478530",
+      "attemptedAt": "2026-09-12T03:24:38.530Z"
+    },
+    {
+      "studentId": "student-01",
+      "questionId": "pq-01",
+      "selectedOptionIndex": 1,
+      "isCorrect": true,
+      "timeSpentSeconds": 45,
+      "id": "pa-1789222259921",
+      "attemptedAt": "2026-09-12T14:10:59.921Z"
+    },
+    {
+      "studentId": "student-01",
+      "questionId": "pq-02",
+      "selectedOptionIndex": 1,
+      "isCorrect": true,
+      "timeSpentSeconds": 45,
+      "id": "pa-1789222265084",
+      "attemptedAt": "2026-09-12T14:11:05.084Z"
+    },
+    {
+      "studentId": "student-01",
+      "questionId": "pq-03",
+      "selectedOptionIndex": 2,
+      "isCorrect": true,
+      "timeSpentSeconds": 45,
+      "id": "pa-1789222275680",
+      "attemptedAt": "2026-09-12T14:11:15.680Z"
+    },
+    {
+      "studentId": "student-01",
+      "questionId": "pq-04",
+      "selectedOptionIndex": 2,
+      "isCorrect": true,
+      "timeSpentSeconds": 45,
+      "id": "pa-1789222290125",
+      "attemptedAt": "2026-09-12T14:11:30.125Z"
+    },
+    {
+      "studentId": "student-01",
+      "questionId": "pq-01",
+      "selectedOptionIndex": 1,
+      "isCorrect": true,
+      "timeSpentSeconds": 45,
+      "id": "pa-1789222296589",
+      "attemptedAt": "2026-09-12T14:11:36.589Z"
+    },
+    {
+      "studentId": "student-01",
+      "questionId": "pq-02",
+      "selectedOptionIndex": 1,
+      "isCorrect": true,
+      "timeSpentSeconds": 45,
+      "id": "pa-1789222304786",
+      "attemptedAt": "2026-09-12T14:11:44.786Z"
+    },
+    {
+      "studentId": "student-01",
+      "questionId": "pq-03",
+      "selectedOptionIndex": 2,
+      "isCorrect": true,
+      "timeSpentSeconds": 45,
+      "id": "pa-1789222312853",
+      "attemptedAt": "2026-09-12T14:11:52.852Z"
+    },
+    {
+      "studentId": "student-01",
+      "questionId": "pq-04",
+      "selectedOptionIndex": 2,
+      "isCorrect": true,
+      "timeSpentSeconds": 45,
+      "id": "pa-1789222317748",
+      "attemptedAt": "2026-09-12T14:11:57.748Z"
+    },
+    {
+      "studentId": "student-01",
+      "questionId": "pq-01",
+      "selectedOptionIndex": 1,
+      "isCorrect": true,
+      "timeSpentSeconds": 45,
+      "id": "pa-1789222445588",
+      "attemptedAt": "2026-09-12T14:14:05.588Z"
+    },
+    {
+      "studentId": "student-01",
+      "questionId": "pq-02",
+      "selectedOptionIndex": 1,
+      "isCorrect": true,
+      "timeSpentSeconds": 45,
+      "id": "pa-1789222451837",
+      "attemptedAt": "2026-09-12T14:14:11.837Z"
+    },
+    {
+      "studentId": "student-01",
+      "questionId": "pq-03",
+      "selectedOptionIndex": 2,
+      "isCorrect": true,
+      "timeSpentSeconds": 45,
+      "id": "pa-1789222458001",
+      "attemptedAt": "2026-09-12T14:14:18.001Z"
+    },
+    {
+      "studentId": "student-01",
+      "questionId": "pq-04",
+      "selectedOptionIndex": 2,
+      "isCorrect": true,
+      "timeSpentSeconds": 45,
+      "id": "pa-1789222462616",
+      "attemptedAt": "2026-09-12T14:14:22.616Z"
+    }
+  ],
+  "mistakeBook": [
+    {
+      "id": "mb-01",
+      "studentId": "student-01",
+      "questionId": "pq-02",
+      "subjectId": "subj-math",
+      "subjectName": "Mathematics",
+      "topicName": "Linear Equations",
+      "questionText": "A father is currently 3 times as old as his son. In 12 years, he will be twice as old as his son. How old is the son now?",
+      "studentAnswer": "10 years",
+      "correctAnswer": "12 years",
+      "explanation": "Let son's age = s. Father's age = 3s. In 12 years: 3s + 12 = 2(s + 12) -> 3s + 12 = 2s + 24 -> s = 12 years.",
+      "mistakeType": "FORMULA_ERROR",
+      "reviewed": true,
+      "retryCount": 2,
+      "resolved": false,
+      "addedAt": "2026-09-09T17:18:00Z",
+      "notes": "Remember to distribute the 2 across both s and 12 in the RHS."
+    }
+  ],
+  "growthInsights": [
+    {
+      "id": "gi-01",
+      "studentId": "student-01",
+      "metric": "Algebra Accuracy",
+      "changePercentage": 18,
+      "direction": "UP",
+      "analysis": "Accuracy in linear equations improved by +18% over the last 14 days following practice drills.",
+      "period": "Last 14 Days",
+      "generatedDate": "2026-09-10"
+    },
+    {
+      "id": "gi-02",
+      "studentId": "student-01",
+      "metric": "Weekly Study Consistency",
+      "changePercentage": 25,
+      "direction": "UP",
+      "analysis": "Completed 4 of 5 scheduled study sessions on time, maintaining a 4-day study streak.",
+      "period": "This Week",
+      "generatedDate": "2026-09-11"
+    },
+    {
+      "id": "gi-03",
+      "studentId": "student-01",
+      "metric": "Science Terminology Recall",
+      "changePercentage": 12,
+      "direction": "UP",
+      "analysis": "Scored 85% on cellular processes quiz, advancing from foundational to intermediate tier.",
+      "period": "Past Month",
+      "generatedDate": "2026-09-08"
+    }
+  ],
+  "skillPassports": [
+    {
+      "id": "sk-01",
+      "studentId": "student-01",
+      "skillName": "Analytical Reasoning",
+      "category": "COGNITIVE",
+      "level": "PROFICIENT",
+      "badge": "Master Solver",
+      "verifiedByTeacherName": "Rahul Sharma",
+      "dateAwarded": "2026-09-01",
+      "evidence": "Successfully solved 4 complex multi-step algebraic problems without prompting."
+    },
+    {
+      "id": "sk-02",
+      "studentId": "student-01",
+      "skillName": "Collaborative Leadership",
+      "category": "LEADERSHIP",
+      "level": "ADVANCED",
+      "badge": "Team Captain",
+      "verifiedByTeacherName": "Rahul Sharma",
+      "dateAwarded": "2026-08-25",
+      "evidence": "Led the Class 7-A Science Exhibition project on Renewable Energy Models."
+    },
+    {
+      "id": "sk-03",
+      "studentId": "student-01",
+      "skillName": "Computational Thinking",
+      "category": "TECHNICAL",
+      "level": "INTERMEDIATE",
+      "badge": "Python Explorer",
+      "verifiedByTeacherName": "Rahul Sharma",
+      "dateAwarded": "2026-09-05",
+      "evidence": "Implemented automated prime number generator and recursion algorithms."
+    },
+    {
+      "id": "sk-04",
+      "studentId": "student-01",
+      "skillName": "Public Speaking & Articulation",
+      "category": "COMMUNICATION",
+      "level": "PROFICIENT",
+      "badge": "Orator",
+      "verifiedByTeacherName": "Rahul Sharma",
+      "dateAwarded": "2026-08-18",
+      "evidence": "Delivered morning assembly speech on International Literacy Day."
+    }
+  ],
+  "interventions": [
+    {
+      "id": "int-01",
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "schoolId": "school-gv-01",
+      "teacherId": "teacher-01",
+      "teacherName": "Rahul Sharma",
+      "type": "REMEDIAL_SESSION",
+      "title": "1-on-1 Remedial: Algebra Word Problems",
+      "notes": "Reviewed systematic steps for translating word problems into linear equations. Student demonstrated good grasp of variable isolation.",
+      "actionItems": [
+        "Assigned 5 practice questions in Practice Zone",
+        "Follow-up scheduled for next Tuesday during zero period"
+      ],
+      "status": "IN_PROGRESS",
+      "scheduledDate": "2026-09-08",
+      "createdAt": "2026-09-11T19:16:02.349Z",
+      "updatedAt": "2026-09-11T19:16:02.349Z"
+    }
+  ],
+  "growthRooms": [
+    {
+      "id": "gr-student-1789220347582",
+      "studentId": "student-1789220347582",
+      "studentName": "Nikhil Kumar",
+      "teacherId": "teacher-01",
+      "teacherName": "Rahul Sharma",
+      "parentId": "parent-01",
+      "parentName": "Raj Kumar",
+      "schoolId": "school-gv-01",
+      "className": "Class 7",
+      "sectionName": "A",
+      "currentFocusTopic": "Geometry → Angles & Relationships",
+      "currentAccuracy": 51,
+      "growthDelta": 17,
+      "status": "ACTIVE",
+      "lastActivityAt": "2026-09-12T13:39:16.375Z",
+      "messages": [
+        {
+          "id": "msg-01",
+          "roomId": "gr-student-1789220347582",
+          "senderId": "user-teacher-01",
+          "senderName": "Rahul Sharma (Teacher)",
+          "senderRole": "TEACHER",
+          "text": "Aarav needs targeted practice in Geometry → Angles. I have assigned 10 adaptive practice questions and a revision task.",
+          "category": "INTERVENTION",
+          "timestamp": "2026-09-11T13:39:16.375Z"
+        },
+        {
+          "id": "msg-02",
+          "roomId": "gr-student-1789220347582",
+          "senderId": "user-parent-01",
+          "senderName": "Raj Kumar (Parent)",
+          "senderRole": "PARENT",
+          "text": "Thank you Mr. Sharma. I have reviewed the plan and will ensure Aarav completes his practice schedule at home today.",
+          "category": "UPDATE",
+          "timestamp": "2026-09-11T19:39:16.376Z"
+        },
+        {
+          "id": "msg-03",
+          "roomId": "gr-student-1789220347582",
+          "senderId": "user-student-01",
+          "senderName": "Aarav Kumar (Student)",
+          "senderRole": "STUDENT",
+          "text": "Completed practice set! Reviewed my angle sum mistakes in the Mistake Book and scored 80% on reattempt.",
+          "category": "MILESTONE",
+          "timestamp": "2026-09-12T11:39:16.376Z"
+        }
+      ],
+      "milestones": [
+        {
+          "id": "ms-01",
+          "studentId": "student-1789220347582",
+          "title": "Geometry Remediation Completed",
+          "description": "Accuracy improved from 51% to 68% following targeted practice & teacher explanation",
+          "date": "2026-09-12",
+          "type": "ACADEMIC_IMPROVEMENT",
+          "evidence": "Assessment score: 68%, Practice accuracy: 80%",
+          "pointsEarned": 50
+        }
+      ]
+    },
+    {
+      "id": "gr-student-01",
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "teacherId": "teacher-01",
+      "teacherName": "Rahul Sharma",
+      "parentId": "parent-01",
+      "parentName": "Raj Kumar",
+      "schoolId": "school-gv-01",
+      "className": "Class 7",
+      "sectionName": "A",
+      "currentFocusTopic": "Geometry → Angles & Relationships",
+      "currentAccuracy": 51,
+      "growthDelta": 17,
+      "status": "ACTIVE",
+      "lastActivityAt": "2026-09-12T13:46:15.740Z",
+      "messages": [
+        {
+          "id": "msg-01",
+          "roomId": "gr-student-01",
+          "senderId": "user-teacher-01",
+          "senderName": "Rahul Sharma (Teacher)",
+          "senderRole": "TEACHER",
+          "text": "Aarav needs targeted practice in Geometry → Angles. I have assigned 10 adaptive practice questions and a revision task.",
+          "category": "INTERVENTION",
+          "timestamp": "2026-09-11T13:41:49.413Z"
+        },
+        {
+          "id": "msg-02",
+          "roomId": "gr-student-01",
+          "senderId": "user-parent-01",
+          "senderName": "Raj Kumar (Parent)",
+          "senderRole": "PARENT",
+          "text": "Thank you Mr. Sharma. I have reviewed the plan and will ensure Aarav completes his practice schedule at home today.",
+          "category": "UPDATE",
+          "timestamp": "2026-09-11T19:41:49.413Z"
+        },
+        {
+          "id": "msg-03",
+          "roomId": "gr-student-01",
+          "senderId": "user-student-01",
+          "senderName": "Aarav Kumar (Student)",
+          "senderRole": "STUDENT",
+          "text": "Completed practice set! Reviewed my angle sum mistakes in the Mistake Book and scored 80% on reattempt.",
+          "category": "MILESTONE",
+          "timestamp": "2026-09-12T11:41:49.413Z"
+        },
+        {
+          "roomId": "gr-student-01",
+          "senderId": "user-teacher-01",
+          "senderName": "Rahul Sharma (Teacher)",
+          "senderRole": "TEACHER",
+          "text": "🏆 Awarded Aarav Kumar the \"Most Improved Learner\" award for Demonstrated verified improvement in Geometry → Angles following targeted practice & revision.",
+          "category": "CELEBRATION",
+          "id": "msg-1789220509417",
+          "timestamp": "2026-09-12T13:41:49.417Z"
+        },
+        {
+          "roomId": "gr-student-01",
+          "senderId": "user-teacher-01",
+          "senderName": "Rahul Sharma (Teacher)",
+          "senderRole": "TEACHER",
+          "text": "cvbnm",
+          "category": "INTERVENTION",
+          "id": "msg-1789220775740",
+          "timestamp": "2026-09-12T13:46:15.740Z"
+        }
+      ],
+      "milestones": [
+        {
+          "id": "ms-01",
+          "studentId": "student-01",
+          "title": "Geometry Remediation Completed",
+          "description": "Accuracy improved from 51% to 68% following targeted practice & teacher explanation",
+          "date": "2026-09-12",
+          "type": "ACADEMIC_IMPROVEMENT",
+          "evidence": "Assessment score: 68%, Practice accuracy: 80%",
+          "pointsEarned": 50
+        }
+      ]
+    }
+  ],
+  "actionPlans": [],
+  "escalationCases": [
+    {
+      "id": "esc-student-01",
+      "studentId": "student-01",
+      "studentName": "Aarav Kumar",
+      "schoolId": "school-gv-01",
+      "classId": "class-07",
+      "className": "Class 7",
+      "subject": "Mathematics",
+      "teacherId": "teacher-01",
+      "teacherName": "Rahul Sharma",
+      "status": "NORMAL",
+      "qualifyingMisses": 2,
+      "teacherSupportStatus": "SUFFICIENT",
+      "reason": "1 qualifying missed learning task(s) recorded",
+      "openedAt": "2026-09-12T13:35:45.377Z",
+      "lastUpdated": "2026-09-12T13:45:09.478Z",
+      "history": [
+        {
+          "status": "WATCH",
+          "updatedAt": "2026-09-12T13:35:45.377Z",
+          "updatedBy": "System Escalation Engine",
+          "note": "Recorded task miss: Geometry Homework #3. Qualifying misses = 1"
+        },
+        {
+          "status": "WARNING",
+          "updatedAt": "2026-09-12T13:35:45.400Z",
+          "updatedBy": "System Escalation Engine",
+          "note": "Recorded task miss: Geometry Homework #3. Qualifying misses = 2"
+        },
+        {
+          "status": "NORMAL",
+          "updatedAt": "2026-09-12T13:45:09.047Z",
+          "updatedBy": "System Escalation Engine",
+          "note": "Recorded task miss: Status Check. Qualifying misses = 2"
+        },
+        {
+          "status": "NORMAL",
+          "updatedAt": "2026-09-12T13:45:09.478Z",
+          "updatedBy": "System Escalation Engine",
+          "note": "Recorded task miss: Status Check. Qualifying misses = 2"
+        }
+      ]
+    },
+    {
+      "id": "esc-student-1789220347582",
+      "studentId": "student-1789220347582",
+      "studentName": "Nikhil Kumar",
+      "schoolId": "school-gv-01",
+      "classId": "class-07",
+      "className": "Class 7",
+      "subject": "Mathematics",
+      "teacherId": "teacher-01",
+      "teacherName": "Rahul Sharma",
+      "status": "NORMAL",
+      "qualifyingMisses": 0,
+      "teacherSupportStatus": "SUFFICIENT",
+      "reason": "Task missed with valid exception: Audit",
+      "openedAt": "2026-09-12T13:39:16.387Z",
+      "lastUpdated": "2026-09-12T13:46:37.106Z",
+      "history": [
+        {
+          "status": "NORMAL",
+          "updatedAt": "2026-09-12T13:39:16.387Z",
+          "updatedBy": "System Escalation Engine",
+          "note": "Recorded task miss: Status Check. Qualifying misses = 0"
+        },
+        {
+          "status": "NORMAL",
+          "updatedAt": "2026-09-12T13:39:16.490Z",
+          "updatedBy": "System Escalation Engine",
+          "note": "Recorded task miss: Status Check. Qualifying misses = 0"
+        },
+        {
+          "status": "NORMAL",
+          "updatedAt": "2026-09-12T13:46:37.042Z",
+          "updatedBy": "System Escalation Engine",
+          "note": "Recorded task miss: Status Check. Qualifying misses = 0"
+        },
+        {
+          "status": "NORMAL",
+          "updatedAt": "2026-09-12T13:46:37.106Z",
+          "updatedBy": "System Escalation Engine",
+          "note": "Recorded task miss: Status Check. Qualifying misses = 0"
+        }
+      ]
+    }
+  ],
+  "studentMisses": [
+    {
+      "id": "sm-1789220145377",
+      "studentId": "student-01",
+      "taskId": "task-1789220145376",
+      "taskTitle": "Geometry Homework #3",
+      "dueDate": "2026-09-12",
+      "missedAt": "2026-09-12T13:35:45.377Z",
+      "isValidException": false,
+      "qualifyingMissCount": 1
+    },
+    {
+      "id": "sm-1789220145400",
+      "studentId": "student-01",
+      "taskId": "task-1789220145400",
+      "taskTitle": "Geometry Homework #3",
+      "dueDate": "2026-09-12",
+      "missedAt": "2026-09-12T13:35:45.400Z",
+      "isValidException": false,
+      "qualifyingMissCount": 2
+    },
+    {
+      "id": "sm-1789220356387",
+      "studentId": "student-1789220347582",
+      "taskId": "check",
+      "taskTitle": "Status Check",
+      "dueDate": "2026-09-12",
+      "missedAt": "2026-09-12T13:39:16.387Z",
+      "isValidException": true,
+      "exceptionReason": "Audit",
+      "qualifyingMissCount": 0
+    },
+    {
+      "id": "sm-1789220356490",
+      "studentId": "student-1789220347582",
+      "taskId": "check",
+      "taskTitle": "Status Check",
+      "dueDate": "2026-09-12",
+      "missedAt": "2026-09-12T13:39:16.490Z",
+      "isValidException": true,
+      "exceptionReason": "Audit",
+      "qualifyingMissCount": 0
+    },
+    {
+      "id": "sm-1789220709047",
+      "studentId": "student-01",
+      "taskId": "check",
+      "taskTitle": "Status Check",
+      "dueDate": "2026-09-12",
+      "missedAt": "2026-09-12T13:45:09.047Z",
+      "isValidException": true,
+      "exceptionReason": "Audit",
+      "qualifyingMissCount": 2
+    },
+    {
+      "id": "sm-1789220709469",
+      "studentId": "student-01",
+      "taskId": "check",
+      "taskTitle": "Status Check",
+      "dueDate": "2026-09-12",
+      "missedAt": "2026-09-12T13:45:09.478Z",
+      "isValidException": true,
+      "exceptionReason": "Audit",
+      "qualifyingMissCount": 2
+    },
+    {
+      "id": "sm-1789220797042",
+      "studentId": "student-1789220347582",
+      "taskId": "check",
+      "taskTitle": "Status Check",
+      "dueDate": "2026-09-12",
+      "missedAt": "2026-09-12T13:46:37.042Z",
+      "isValidException": true,
+      "exceptionReason": "Audit",
+      "qualifyingMissCount": 0
+    },
+    {
+      "id": "sm-1789220797106",
+      "studentId": "student-1789220347582",
+      "taskId": "check",
+      "taskTitle": "Status Check",
+      "dueDate": "2026-09-12",
+      "missedAt": "2026-09-12T13:46:37.106Z",
+      "isValidException": true,
+      "exceptionReason": "Audit",
+      "qualifyingMissCount": 0
+    }
+  ],
+  "teacherAudits": [],
+  "creditPointEvents": [
+    {
+      "id": "cpe-1789220509400-148",
+      "eventId": "evt-1789220509400",
+      "userId": "student-01",
+      "userName": "Aarav Kumar",
+      "userRole": "STUDENT",
+      "schoolId": "school-gv-01",
+      "action": "CREDIT_AWARD",
+      "points": 100,
+      "reason": "Awarded: Most Improved Learner",
+      "relatedEntityId": "award-1789220509398",
+      "timestamp": "2026-09-12T13:41:49.400Z"
+    },
+    {
+      "id": "cpe-1789220775750-209",
+      "eventId": "evt-1789220775751",
+      "userId": "user-teacher-01",
+      "userName": "Rahul Sharma",
+      "userRole": "TEACHER",
+      "schoolId": "school-gv-01",
+      "action": "CREDIT_AWARD",
+      "points": 10,
+      "reason": "Provided mentor feedback in Growth Room",
+      "relatedEntityId": "msg-1789220775740",
+      "timestamp": "2026-09-12T13:46:15.751Z"
+    }
+  ],
+  "creditPoints": [
+    {
+      "userId": "user-1789220347579-dv4r6",
+      "totalPoints": 185,
+      "level": 2,
+      "rankTitle": "Silver Growth Champion",
+      "history": [
+        {
+          "id": "cpe-seed-01",
+          "eventId": "evt-01",
+          "userId": "user-1789220347579-dv4r6",
+          "userName": "Aarav Kumar",
+          "userRole": "STUDENT",
+          "schoolId": "school-gv-01",
+          "action": "CREDIT_AWARD",
+          "points": 50,
+          "reason": "Measurable improvement in Geometry → Angles (51% → 68%)",
+          "timestamp": "2026-09-10T13:39:16.380Z"
+        },
+        {
+          "id": "cpe-seed-02",
+          "eventId": "evt-02",
+          "userId": "user-1789220347579-dv4r6",
+          "userName": "Aarav Kumar",
+          "userRole": "STUDENT",
+          "schoolId": "school-gv-01",
+          "action": "CREDIT_AWARD",
+          "points": 35,
+          "reason": "Completed 10 adaptive practice questions in Practice Zone",
+          "timestamp": "2026-09-11T13:39:16.380Z"
+        }
+      ]
+    },
+    {
+      "userId": "user-teacher-01",
+      "totalPoints": 195,
+      "level": 2,
+      "rankTitle": "Silver Explorer",
+      "history": [
+        {
+          "id": "cpe-seed-01",
+          "eventId": "evt-01",
+          "userId": "user-teacher-01",
+          "userName": "Aarav Kumar",
+          "userRole": "STUDENT",
+          "schoolId": "school-gv-01",
+          "action": "CREDIT_AWARD",
+          "points": 50,
+          "reason": "Measurable improvement in Geometry → Angles (51% → 68%)",
+          "timestamp": "2026-09-10T13:41:48.801Z"
+        },
+        {
+          "id": "cpe-seed-02",
+          "eventId": "evt-02",
+          "userId": "user-teacher-01",
+          "userName": "Aarav Kumar",
+          "userRole": "STUDENT",
+          "schoolId": "school-gv-01",
+          "action": "CREDIT_AWARD",
+          "points": 35,
+          "reason": "Completed 10 adaptive practice questions in Practice Zone",
+          "timestamp": "2026-09-11T13:41:48.801Z"
+        },
+        {
+          "id": "cpe-1789220775750-209",
+          "eventId": "evt-1789220775751",
+          "userId": "user-teacher-01",
+          "userName": "Rahul Sharma",
+          "userRole": "TEACHER",
+          "schoolId": "school-gv-01",
+          "action": "CREDIT_AWARD",
+          "points": 10,
+          "reason": "Provided mentor feedback in Growth Room",
+          "relatedEntityId": "msg-1789220775740",
+          "timestamp": "2026-09-12T13:46:15.751Z"
+        }
+      ]
+    },
+    {
+      "userId": "student-01",
+      "totalPoints": 100,
+      "level": 2,
+      "rankTitle": "Silver Explorer",
+      "history": [
+        {
+          "id": "cpe-1789220509400-148",
+          "eventId": "evt-1789220509400",
+          "userId": "student-01",
+          "userName": "Aarav Kumar",
+          "userRole": "STUDENT",
+          "schoolId": "school-gv-01",
+          "action": "CREDIT_AWARD",
+          "points": 100,
+          "reason": "Awarded: Most Improved Learner",
+          "relatedEntityId": "award-1789220509398",
+          "timestamp": "2026-09-12T13:41:49.400Z"
+        }
+      ]
+    },
+    {
+      "userId": "user-student-01",
+      "totalPoints": 185,
+      "level": 2,
+      "rankTitle": "Silver Growth Champion",
+      "history": [
+        {
+          "id": "cpe-seed-01",
+          "eventId": "evt-01",
+          "userId": "user-student-01",
+          "userName": "Aarav Kumar",
+          "userRole": "STUDENT",
+          "schoolId": "school-gv-01",
+          "action": "CREDIT_AWARD",
+          "points": 50,
+          "reason": "Measurable improvement in Geometry → Angles (51% → 68%)",
+          "timestamp": "2026-09-10T13:45:09.018Z"
+        },
+        {
+          "id": "cpe-seed-02",
+          "eventId": "evt-02",
+          "userId": "user-student-01",
+          "userName": "Aarav Kumar",
+          "userRole": "STUDENT",
+          "schoolId": "school-gv-01",
+          "action": "CREDIT_AWARD",
+          "points": 35,
+          "reason": "Completed 10 adaptive practice questions in Practice Zone",
+          "timestamp": "2026-09-11T13:45:09.018Z"
+        }
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "id": "award-01",
+      "recipientId": "student-01",
+      "recipientName": "Aarav Kumar",
+      "recipientRole": "STUDENT",
+      "awardName": "Most Improved Learner",
+      "category": "STUDENT",
+      "reason": "Demonstrated measurable improvement after completing targeted learning activities in Geometry → Angles.",
+      "evidenceSummary": "Geometry score improved from 51% to 68% following 10 practice questions and targeted revision.",
+      "pointsAwarded": 100,
+      "issuedAt": "2026-09-12",
+      "issuedById": "user-teacher-01",
+      "issuedByName": "Rahul Sharma (Teacher)",
+      "schoolId": "school-gv-01",
+      "schoolName": "Green Valley School",
+      "certificateId": "CERT-GVS-2026-007",
+      "status": "APPROVED"
+    },
+    {
+      "id": "award-1789220509398",
+      "recipientId": "student-01",
+      "recipientName": "Aarav Kumar",
+      "recipientRole": "STUDENT",
+      "awardName": "Most Improved Learner",
+      "category": "STUDENT",
+      "reason": "Demonstrated verified improvement in Geometry → Angles following targeted practice & revision.",
+      "evidenceSummary": "Geometry test accuracy increased from 51% to 68% after completing assigned practice set.",
+      "issuedById": "user-teacher-01",
+      "issuedByName": "Rahul Sharma (Teacher)",
+      "pointsAwarded": 100,
+      "issuedAt": "2026-09-12",
+      "schoolId": "school-gv-01",
+      "schoolName": "Green Valley School",
+      "certificateId": "CERT-GVS-509398",
+      "status": "APPROVED"
+    }
+  ]
+}

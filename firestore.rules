@@ -1,0 +1,164 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ============================================================
+    // HELPER SECURITY ALGORITHMS & FUNCTIONS
+    // ============================================================
+
+    // Check if request is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Check if the caller is the owner of the document
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // Retrieve user profile document data from /users/{uid}
+    function getUserData() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+
+    // Role check helper
+    function hasRole(role) {
+      return isAuthenticated() && getUserData().role == role;
+    }
+
+    // Role-specific helpers
+    function isSuperAdmin() {
+      return hasRole('SUPER_ADMIN');
+    }
+
+    function isPrincipal() {
+      return hasRole('PRINCIPAL');
+    }
+
+    function isTeacher() {
+      return hasRole('TEACHER');
+    }
+
+    function isAccountant() {
+      return hasRole('ACCOUNTANT');
+    }
+
+    function isStudent() {
+      return hasRole('STUDENT');
+    }
+
+    function isParent() {
+      return hasRole('PARENT');
+    }
+
+    function isDriver() {
+      return hasRole('DRIVER');
+    }
+
+    // Multi-tenant School Isolation Helper
+    function belongsToSchool(schoolId) {
+      return isSuperAdmin() || (isAuthenticated() && getUserData().schoolId == schoolId);
+    }
+
+    // ============================================================
+    // COLLECTION RULES
+    // ============================================================
+
+    // 1. Users Collection
+    match /users/{userId} {
+      // Allow users to read their own profile, or staff/admins to read school members
+      allow read: if isAuthenticated() && (
+        isOwner(userId) ||
+        isSuperAdmin() ||
+        isPrincipal() ||
+        isTeacher() ||
+        isAccountant()
+      );
+      
+      // Allow user to create/initialize their own document on sign-up
+      allow create: if isOwner(userId) || isSuperAdmin() || isPrincipal();
+      
+      // Allow updating own profile or admin management
+      allow update: if isOwner(userId) || isSuperAdmin() || isPrincipal();
+      
+      // Only Super Admin can delete user accounts
+      allow delete: if isSuperAdmin();
+    }
+
+    // 2. Schools Collection
+    match /schools/{schoolId} {
+      allow read: if isAuthenticated();
+      allow create, update, delete: if isSuperAdmin();
+    }
+
+    // 3. Classes & Academics
+    match /classes/{classId} {
+      allow read: if isAuthenticated();
+      allow write: if isSuperAdmin() || isPrincipal() || isTeacher();
+    }
+
+    // 4. Students Collection
+    match /students/{studentId} {
+      allow read: if isAuthenticated();
+      allow write: if isSuperAdmin() || isPrincipal() || isTeacher();
+    }
+
+    // 5. Teachers & Staff
+    match /teachers/{teacherId} {
+      allow read: if isAuthenticated();
+      allow write: if isSuperAdmin() || isPrincipal();
+    }
+
+    // 6. Attendance Records
+    match /attendance/{recordId} {
+      allow read: if isAuthenticated();
+      allow create, update: if isSuperAdmin() || isPrincipal() || isTeacher();
+      allow delete: if isSuperAdmin() || isPrincipal();
+    }
+
+    // 7. Assessments & Marks
+    match /assessments/{assessmentId} {
+      allow read: if isAuthenticated();
+      allow write: if isSuperAdmin() || isPrincipal() || isTeacher();
+    }
+
+    match /marks/{markId} {
+      allow read: if isAuthenticated();
+      allow write: if isSuperAdmin() || isPrincipal() || isTeacher();
+    }
+
+    // 8. Fee Management & Payments
+    match /fees/{feeId} {
+      allow read: if isAuthenticated();
+      allow write: if isSuperAdmin() || isPrincipal() || isAccountant();
+    }
+
+    match /payments/{paymentId} {
+      allow read: if isAuthenticated();
+      allow write: if isSuperAdmin() || isPrincipal() || isAccountant();
+    }
+
+    // 9. Transport & Realtime GPS Tracking
+    match /transport/{tripId} {
+      allow read: if isAuthenticated();
+      allow write: if isSuperAdmin() || isPrincipal() || isDriver();
+    }
+
+    match /gpsLocations/{vehicleId} {
+      allow read: if isAuthenticated();
+      allow write: if isSuperAdmin() || isPrincipal() || isDriver();
+    }
+
+    // 10. Audit Logs (Append-only security guarantee)
+    match /auditLogs/{logId} {
+      allow read: if isSuperAdmin() || isPrincipal();
+      allow create: if isAuthenticated();
+      allow update, delete: if false; // Tamper-proof audit logs
+    }
+
+    // Default deny for anything not matched
+    match /{document=**} {
+      allow read, write: if isSuperAdmin();
+    }
+  }
+}
